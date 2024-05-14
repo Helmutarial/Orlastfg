@@ -42,6 +42,7 @@ input[type="checkbox"] {
     font-family: 'Roboto', sans-serif; /* Fuente Roboto */
     margin: 5px auto; /* Centra el elemento horizontalmente */
 }
+
 input[type="checkbox"]:checked + label {
     background-color: green; /* Cambia todo el checkbox a verde cuando está seleccionado */
     color: white; /* Cambia el color del texto cuando está seleccionado */
