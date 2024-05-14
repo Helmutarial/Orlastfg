@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('inisesion.png');
+    background-size: cover;
+    /* Si quieres centrar la imagen de fondo verticalmente, puedes usar la propiedad background-position */
+    /* background-position: center center; */
+}
+
+.container {
+    max-width: 80%; /* Ancho máximo del contenedor (porcentaje del ancho de la ventana) */
+    margin: 0 auto; /* Margen automático para centrar */
+    padding: 20px; /* Añadimos un poco de relleno */
+    border: 1px solid #ccc; /* Añadimos un borde */
+    border-radius: 8px; /* Añadimos bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añadimos una sombra */
+    background-color:  #fff;
+    /* Media Query para pantallas más grandes (escritorio) */
+    @media screen and (min-width: 768px) {
+        max-width: 40%; /* Reducir el ancho máximo del contenedor para pantallas más grandes */
+    }
+    
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif; /* Fuente Roboto */
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #e52a30;
+    font-family: 'Roboto', sans-serif; /* Fuente Roboto */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #DC1313;
+}
+
+.welcome-image {
+    width: 100%;
+    margin-bottom: 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+

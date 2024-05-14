@@ -1,0 +1,29 @@
+/* Estilos adicionales para subirfotos.html */
+
+/* Estilos para la etiqueta h1 */
+h1 {
+    font-size: 2.5rem;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Estilos para el formulario */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Estilos para los campos de texto */
+.form-control {
+    width: 100%;
+}
+
+/* Estilos para el botón */
+.btn {
+    font-size: 1rem;
+}
+
+

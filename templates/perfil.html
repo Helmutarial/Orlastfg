@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='perfil.css') }}">
+</head>
+<body>
+        <div class="container2">
+        <form method="POST" action="{{ url_for('perfil') }}">
+            <h1>Editar Perfil</h1>
+            {{ form.hidden_tag() }}
+            <div>
+                <label for="nombre">Nombre:</label>
+                {{ form.nombre(size=32) }}
+                {% for error in form.nombre.errors %}
+                    <span style="color: red;">{{ error }}</span>
+                {% endfor %}
+            </div>
+            <div>
+                <label for="apellido1">Primer Apellido:</label>
+                {{ form.apellido1(size=32) }}
+                {% for error in form.apellido1.errors %}
+                    <span style="color: red;">{{ error }}</span>
+                {% endfor %}
+            </div>
+            <div>
+                <label for="apellido2">Segundo Apellido:</label>
+                {{ form.apellido2(size=32) }}
+                {% for error in form.apellido2.errors %}
+                    <span style="color: red;">{{ error }}</span>
+                {% endfor %}
+            </div>
+            <div>
+                <label for="grado">Grado:</label>
+                <select name="grado" id="grado">
+                    <option value="" selected>Elegir</option>
+                    <option value="Ingeniería de Tecnologías y Servicios de Telecomunicación">Ingeniería de Tecnologías y Servicios de Telecomunicación</option>
+                    <option value="Ingeniería Biomédica">Ingeniería Biomédica</option>
+                    <option value="Ingeniería y Sistemas de Datos">Ingeniería y Sistemas de Datos</option>
+                </select>
+                {% for error in form.grado.errors %}
+                    <span style="color: red;">{{ error }}</span>
+                {% endfor %}
+            </div>
+            <div>
+                <label for="especialidad">Especialidad:</label>
+                <select name="especialidad" id="especialidad">
+                    <option value="">Selecciona una especialidad</option>
+                </select>
+                {% for error in form.especialidad.errors %}
+                    <span style="color: red;">{{ error }}</span>
+                {% endfor %}
+            </div>
+            <div>
+                <input type="submit" value="Guardar">
+            </div>
+            </form>      
+    </div>      
+</body>     
+</html>
+        <script>
+            document.getElementById('grado').addEventListener('change', function() {
+                var grado = this.value;
+                var especialidadSelect = document.getElementById('especialidad');
+                especialidadSelect.innerHTML = ""; // Limpiar opciones
+    
+                // Agregar opciones según el grado seleccionado
+                if (grado === 'Ingeniería de Tecnologías y Servicios de Telecomunicación') {
+                    var especialidades = ['Sistemas de Telecomunicación', 'Telemática', 'Sistemas Electrónicos', 'Sistemas Audiovisuales'];
+                } else if (grado === 'Ingeniería Biomédica') {
+                    var especialidades = ['Ingeniería de Datos y Salud Digital', 'Imágenes Biomédicas', 'Bioinstrumentación, Biomateriales y Biomecánica'];
+                } else if (grado === 'Ingeniería y Sistemas de Datos') {
+                    var especialidades = ['Datos'];
+                }
+    
+                // Agregar las nuevas opciones al selector de especialidad
+                for (var i = 0; i < especialidades.length; i++) {
+                    var option = document.createElement('option');
+                    option.value = especialidades[i];
+                    option.text = especialidades[i];
+                    especialidadSelect.appendChild(option);
+                }
+            });
+        </script>
+           

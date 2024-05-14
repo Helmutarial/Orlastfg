@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - FLASK_ENV=development
+    volumes:
+      - .:/app  # Monta el directorio actual en el contenedor para facilitar el desarrollo
+    depends_on:
+      - db  # Dependencia del servicio de la base de datos
+
+  db:
+    image: postgres:latest
+    environment:
+      - POSTGRES_USER=myuser
+      - POSTGRES_PASSWORD=mypassword
+      - POSTGRES_DB=mydatabase
+    volumes:
+      - postgres-data:/var/lib/postgresql/data  # Persiste los datos de la base de datos
+
+volumes:
+  postgres-data:  # Define un volumen para persistir los datos de PostgreSQL
+
+

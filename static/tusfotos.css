@@ -1,0 +1,35 @@
+/* Estilos CSS para el contenedor de las fotos y el botón de descarga */
+.container {
+    display: flex;
+    flex-wrap: nowrap; /* Evita que las fotos se envuelvan en varias líneas */
+    overflow-x: auto; /* Agrega una barra de desplazamiento horizontal si las fotos no caben en la pantalla */
+    max-width: 100%; /* Asegura que el contenedor no sea más ancho que la pantalla */
+}
+
+.foto {
+    margin-right: 10px; /* Espacio entre las fotos */
+}
+
+.foto img {
+    width: 150px; /* Ancho deseado para las fotos */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+
+.descargar-todas {
+    margin-top: 20px; /* Espacio entre las fotos y el botón de descarga */
+}
+
+.boton-descargar {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}

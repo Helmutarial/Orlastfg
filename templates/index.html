@@ -1,0 +1,59 @@
+{% extends 'layout.html' %}
+{% block content %}
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Mi Aplicación{% endblock %}</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    </head>
+    <p class="bienvenida">Bienvenido a EuriOrlas!, aquí podréis escoger una fecha para haceros la foto, verlas y votar a los profesores que quieres que salgan en 
+        tu orla!
+    </p>
+    <div id="texto">
+        <div class="container">
+            <div class="user-info">
+                <p><strong>Nombre:</strong> {{ usuario.nombre }}</p>
+                <p><strong>Primer Apellido:</strong> {{ usuario.apellido1 }}</p>
+                <p><strong>Segundo Apellido:</strong> {{ usuario.apellido2 }}</p>
+                <p><strong>Grado:</strong> {{ usuario.grado }}</p>
+                <p><strong>Especialidad:</strong> {{ usuario.especialidad }}</p>
+                {% for reserva in usuario.reservas %}
+                <p><strong>Reserva:</strong> {{ reserva.start }}</p>
+                {% endfor %}
+            </div>
+            <div class="profesores-mas-votados">
+                <h2>Profesores más votados en {{ usuario.especialidad }}:</h2>
+                {% if profesespecialidad %}
+                <ul>
+                    {% for profesor, total_votos in profesespecialidad %}
+                    <li>{{ profesor.nombre }} - Total de votos: {{ total_votos }}</li>
+                    {% endfor %}
+                </ul>
+                {% else %}
+                <div class="no-votos">
+                    No se han votado profesores todavía.
+                </div>
+                {% endif %}
+            </div>
+
+            <div class="profesores-mas-votados2">
+                <h2>Profesores más votados en {{ usuario.grado }}:</h2>
+                {% if profesgrado %}
+                <ul>
+                    {% for profesor, total_votos in profesgrado %}
+                    <li>{{ profesor.nombre }} - Total de votos: {{ total_votos }}</li>
+                    {% endfor %}
+                </ul>
+                {% else %}
+                <div class="no-votos">
+                    No se han votado profesores todavía.
+                </div>
+                {% endif %}
+            </div>
+
+
+        </div>
+    </div>
+</html>
+{% endblock %}
+

@@ -1,0 +1,142 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='admin.css') }}"> <!-- Agregar enlace al archivo CSS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+<input type="text" id="busqueda" placeholder="Buscar usuario...">
+<button id="guardarDatos">Guardar</button>
+    
+<div class="table-container"> <!-- Div contenedor para hacer la tabla responsive -->
+<table id="tablaUsuarios">
+    <thead>
+        <tr>
+            <th colspan="6">Datos Estudiante</th>
+            <th colspan="2">
+                Reserva
+                <a href="{{ url_for('admin', order='asc') }}">↑</a>
+                <a href="{{ url_for('admin', order='desc') }}">↓</a>
+            </th>
+        </tr>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Grado</th>
+            <th>Especialidad</th>
+            <th>Pagado</th>
+            <th>Pack</th>
+            <th>Fecha de Inicio</th>
+            <th>Fecha de Fin</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for estudiante in estudiantes %}
+        <tr id="fila-{{ estudiante.id }}">
+            <td>{{ estudiante.nombre }}</td>
+            <td>{{ estudiante.apellido1 }} {{ estudiante.apellido2 }}</td>
+            <td>{{ estudiante.grado }}</td>
+            <td>{{ estudiante.especialidad }}</td>
+            <td>
+                <select id="pagado-{{ estudiante.id }}" name="pagado-{{ estudiante.id }}">
+                    <option value="No" {% if estudiante.pagado == "No" %} selected {% endif %}>No</option>
+                    <option value="Si" {% if estudiante.pagado == "Si" %} selected {% endif %}>Si</option>
+                </select>
+            </td>
+            <td>
+                <select id="pack-{{ estudiante.id }}" name="pack-{{ estudiante.id }}">
+                    <option value="Ninguno" {% if estudiante.pack == "Ninguno" %} selected {% endif %}>Ninguno</option>
+                    <option value="Pack 1" {% if estudiante.pack == "Pack 1" %} selected {% endif %}>Pack 1</option>
+                    <option value="Pack 2" {% if estudiante.pack == "Pack 2" %} selected {% endif %}>Pack 2</option>
+                    <option value="Pack 3" {% if estudiante.pack == "Pack 3" %} selected {% endif %}>Pack 3</option>
+                </select>
+            </td>
+            {% if estudiante.reservas %}
+                {% set reservas_ordenadas = estudiante.reservas | sort(attribute='start') %}
+                {% if reservas_ordenadas %}
+                    {% set primera_reserva = reservas_ordenadas[0] %}
+                    <td>{{ primera_reserva.start }}</td>
+                    <td>{{ primera_reserva.end }}</td>
+                {% else %}
+                    <td>No hay reserva</td>
+                    <td>No hay reserva</td>
+                {% endif %}
+            {% else %}
+                <td>No hay reserva</td>
+                <td>No hay reserva</td>
+            {% endif %}
+            
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+</div> <!-- Cierre del div table-container -->
+
+</body>
+<script>
+    // Función para la paginación de la tabla
+    $(document).ready(function() {
+        $('.table-container').css('overflow-x', 'auto'); // Hacer que la tabla tenga desplazamiento horizontal si es necesario
+    });
+</script>
+<script>
+    $(document).ready(function() {
+        // Capturar cambios en los select y enviar los datos al servidor
+        $('select').change(function() {
+            // Obtener el ID del estudiante y el campo que está siendo modificado
+            var id = $(this).attr('id').split('-')[1];
+            var campo = $(this).attr('name').split('-')[0];
+            var valor = $(this).val();
+
+            // Enviar los datos al servidor utilizando AJAX
+            $.ajax({
+                url: '/actualizar_dato/' + id,  // Ruta en el servidor para actualizar los datos
+                type: 'POST',
+                data: {
+                    campo: campo,
+                    valor: valor
+                },
+                success: function(response) {
+                    console.log('Datos actualizados correctamente');
+                },
+                error: function(error) {
+                    console.error('Error al actualizar los datos:', error);
+                }
+            });
+        });
+
+        // Manejar clic en el botón de guardar
+        $('#guardarDatos').click(function() {
+            alert('¡Datos guardados!');
+        });
+    });
+</script>
+<script>
+    document.getElementById('busqueda').addEventListener('input', function() {
+        var input, filtro, tabla, tr, td, i, valorFiltro;
+        input = document.getElementById("busqueda");
+        filtro = input.value.toUpperCase();
+        tabla = document.getElementById("tablaUsuarios");
+        tr = tabla.getElementsByTagName("tr");
+    
+        // Recorre todas las filas y oculta aquellas que no coincidan con el término de búsqueda
+        for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[0]; // Cambia el índice según la columna que quieras buscar
+            if (td) {
+                valorFiltro = td.textContent || td.innerText;
+                if (valorFiltro.toUpperCase().indexOf(filtro) > -1) {
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+            }       
+        }
+    });
+</script>
+</html>
+{% endblock %}

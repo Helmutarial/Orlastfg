@@ -1,0 +1,107 @@
+
+<!-- subirfotos.html -->
+
+{% extends 'layout.html' %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Subir Fotos</title>
+    <!-- Incluye Dropzone.js desde una CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/dropzone.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='subirfotos.css') }}">  
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <form action="/subirfotos" method="POST" enctype="multipart/form-data" class="dropzone" id="my-dropzone">
+                    <div class="form-group">
+                        <label for="buscar_estudiante">Buscar estudiante:</label>
+                        <input type="text" id="buscar_estudiante" name="buscar_estudiante" class="form-control mb-3">
+                        <div id="resultado_estudiantes"></div>
+                    </div>
+                    <!-- Campo oculto para almacenar el ID del estudiante seleccionado -->
+                    <input type="hidden" id="estudiante_id" name="estudiante_id">
+                    <div class="form-group">
+                        <label for="buscar_especialidad">Buscar especialidad:</label>
+                        <input type="text" id="buscar_especialidad" name="buscar_especialidad" class="form-control mb-3">
+                        <div id="resultado_especialidades"></div>
+                    </div>
+                    <!-- Campo oculto para almacenar la especialidad seleccionada -->
+                    <input type="hidden" id="especialidad" name="especialidad">
+                    <!-- Agrega un botón de "Subir Fotos" -->
+                    <button type="button" id="submit-all" class="btn btn-primary btn-block mt-3">Subir Fotos</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Incluye Dropzone.js desde una CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/min/dropzone.min.js"></script>
+    <script>
+        Dropzone.options.myDropzone = {
+            autoProcessQueue: false, // Deshabilita el envío automático
+            init: function() {
+                var submitButton = document.querySelector("#submit-all");
+                var myDropzone = this;
+
+                submitButton.addEventListener("click", function() {
+                    myDropzone.processQueue(); // Inicia el envío de archivos cuando se hace clic en el botón
+                });
+
+                // Evento que se ejecuta después de que todos los archivos se hayan cargado
+                this.on("queuecomplete", function() {
+                    // Aquí puedes agregar cualquier acción adicional después de que se hayan cargado todos los archivos
+                    alert("Todos los archivos han sido cargados con éxito.");
+                });
+            }
+        };
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#buscar_estudiante').on('input', function() {
+                var query = $(this).val().toLowerCase();
+                $('#resultado_estudiantes').empty();
+                {% for estudiante in estudiantes %}
+                    var nombreEstudiante = '{{ estudiante.username }}'.toLowerCase();
+                    if (nombreEstudiante.includes(query)) {
+                        $('#resultado_estudiantes').append('<div><input type="radio" name="estudiante" value="{{ estudiante.id }}" data-username="{{ estudiante.username }}">{{ estudiante.username }}</div>');
+                    }
+                {% endfor %}
+            });
+
+            // Manejar el evento de cambio en los radio buttons de estudiante
+            $(document).on('change', 'input[name="estudiante"]', function() {
+                var estudianteId = $(this).val();
+                $('#estudiante_id').val(estudianteId);
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('#buscar_especialidad').on('input', function() {
+                var query = $(this).val().toLowerCase();
+                $('#resultado_especialidades').empty();
+                {% for especialidad in especialidades %}
+                    var nombreEspecialidad = '{{ especialidad }}'.toLowerCase();
+                    if (nombreEspecialidad.includes(query)) {
+                        $('#resultado_especialidades').append('<div><input type="radio" name="especialidad" value="{{ especialidad }}" data-especialidad="{{ especialidad }}">{{ especialidad }}</div>');
+                    }
+                {% endfor %}
+            });
+
+            // Manejar el evento de cambio en los radio buttons de especialidad
+            $(document).on('change', 'input[name="especialidad"]', function() {
+                var especialidadSeleccionada = $(this).val();
+                $('#especialidad').val(especialidadSeleccionada);
+            });
+        });
+    </script>
+
+    
+</body>
+</html>
+{% endblock %}

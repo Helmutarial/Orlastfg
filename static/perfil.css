@@ -1,0 +1,62 @@
+body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('inisesion.png');
+        background-size: cover; /* Cubrir todo el contenedor */
+}
+
+
+.container2{
+        font-family: 'Roboto', sans-serif; /* Fuente Roboto */
+        max-width: 80%; /* Ancho máximo del contenedor (porcentaje del ancho de la ventana) */
+        margin: 0 auto; /* Margen automático para centrar */
+        padding: 20px; /* Añadimos un poco de relleno */
+        border: 1px solid #ccc; /* Añadimos un borde */
+        border-radius: 8px; /* Añadimos bordes redondeados */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añadimos una sombra */
+        background-color:  #fff;
+        /* Media Query para pantallas más grandes (escritorio) */
+        @media screen and (min-width: 768px) {
+            max-width: 40%; /* Reducir el ancho máximo del contenedor para pantallas más grandes */
+        }
+        
+}
+
+
+
+/* Estilos para las etiquetas */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}       
+
+/* Estilos para los campos de entrada */
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilos para los botones */
+input[type="submit"] {
+    width: 100%; /* Para que el botón ocupe todo el ancho */
+    background-color: #e52a30;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #c3272c;
+}

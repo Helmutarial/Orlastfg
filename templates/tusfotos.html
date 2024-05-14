@@ -1,0 +1,30 @@
+{% extends 'layout.html' %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='tusfotos.css') }}">
+    <title>Mis Fotos</title>
+</head>
+<body>
+    
+    <div class="container">
+        {% if fotos %}
+            {% for foto in fotos %}
+                <div class="foto">
+                    <img src="{{ url_for('static', filename='fotos/' + foto.filename) }}" alt="{{ foto.filename }}">
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>No hay fotos disponibles.</p>
+        {% endif %}
+    </div>
+
+    <a href="{{ url_for('download_all_photos') }}" download class="boton-descargar">Descargar todas</a>
+    
+</body>
+</html>
+
+{% endblock %}

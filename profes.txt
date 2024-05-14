@@ -1,0 +1,2386 @@
+[
+  {
+    "id": "adrian.hierro",
+    "hash": "688ea95cc1b4960701a1b9f112910236dee378770afefb29e65efed1e6b7a30b",
+    "name": "Adrian Hierro Cano",
+    "status": "excluded",
+    "avg": 99,
+    "count": 0
+  },
+  {
+    "id": "a.tamayo",
+    "hash": "768838c2422fa2644656af633b7d3044bb7e357e3ffd8a7596fdd6e06edda398",
+    "name": "Adrian Tamayo Dominguez",
+    "status": "active",
+    "avg": 4,
+    "count": 14
+  },
+  {
+    "id": "alberto.almendra",
+    "hash": "23777d3ed14f3f4d689fa9e0fb7f430c0a976db5b205643ae3a5a40d29416af5",
+    "name": "Alberto Almendra Sanchez",
+    "status": "active",
+    "avg": 3,
+    "count": 3
+  },
+  {
+    "id": "alberto.asensio.lopez",
+    "hash": "867d9cea0ec95f687e790721cd643a1d308569e1c9f5fe51a4aee1237a9383dd",
+    "name": "Alberto Asensio Lopez",
+    "status": "active",
+    "avg": 4.5,
+    "count": 6
+  },
+  {
+    "id": "alberto.belmonte",
+    "hash": "45c258fd1a51da53afea6a334a24bf9e4003fc0a097587fe192956a3f8abb7f8",
+    "name": "Alberto Belmonte Hernandez",
+    "status": "active",
+    "avg": 4,
+    "count": 17
+  },
+  {
+    "id": "alberto.bosca",
+    "hash": "dbb9a242d7679e20fcf304d86992ece0d6e6826c84d7e4080bb5b1f86a8abb11",
+    "name": "Alberto Bosca Mojena",
+    "status": "active",
+    "avg": 2,
+    "count": 2
+  },
+  {
+    "id": "alberto.soria",
+    "hash": "b6ea25f8a698afd6b4317a0eb6400b14a002f2729bf6fecda120f74a21d11cc5",
+    "name": "Alberto Eduardo Soria Marina",
+    "status": "active",
+    "avg": 3.71,
+    "count": 7
+  },
+  {
+    "id": "alberto.portal",
+    "hash": "51d04df15759b3ce7e7fa3e855e7f56f7a43b6552c3cb665c2a7929b31745fa8",
+    "name": "Alberto Portal Ruiz",
+    "status": "active",
+    "avg": 3.73,
+    "count": 15
+  },
+  {
+    "id": "alejandro.alonso",
+    "hash": "ea99bb282e081ad13f608bc55d0a3a42a609b779f9b13f673711b301e9db965a",
+    "name": "Alejandro Antonio Alonso Muñoz",
+    "status": "active",
+    "avg": 1.82,
+    "count": 34
+  },
+  {
+    "id": "a.datas",
+    "hash": "aa17d1257013db80e68da95ca505b48564e88a6030f1e8a77ed8efcc6114244a",
+    "name": "Alejandro Datas Medina",
+    "status": "active",
+    "avg": 4.67,
+    "count": 6
+  },
+  {
+    "id": "alejandro.pozo",
+    "hash": "0f8d1bb8ae1602a98b316517b11d2d01a5e04565a76b120268a48eabf731752b",
+    "name": "Alejandro Pozo Huertas",
+    "status": "active",
+    "avg": 4.67,
+    "count": 9
+  },
+  {
+    "id": "alejandro.rg",
+    "hash": "8490f9fd9540c49eb3e2cfb3c351bbed0af9fd8e8e75fa31be7af91c5e87da5f",
+    "name": "Alejandro Rodriguez Gonzalez",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "ap.seiffert",
+    "hash": "0a01fd752a7b9011bba67b5bb13cc84b210599d8f8354f2aa55d7bfec04f87f4",
+    "name": "Alexander Peter Seiffert",
+    "status": "active",
+    "avg": 4,
+    "count": 2
+  },
+  {
+    "id": "alfredo.sanz",
+    "hash": "866e8782d085ab04d29a964628bc9d93fb434c9c03a55e62229e728d80167dbc",
+    "name": "Alfredo Sanz Hervas",
+    "status": "active",
+    "avg": 4.33,
+    "count": 6
+  },
+  {
+    "id": "alvaro.alonso",
+    "hash": "1127076200387bde0f8b1cd2b8ff698f0ff211cf350cc460eb0335e7201527cf",
+    "name": "Alvaro Alonso Gonzalez",
+    "status": "active",
+    "avg": 3.08,
+    "count": 13
+  },
+  {
+    "id": "alvaro.araujo",
+    "hash": "70de9210dfd36ce2604985a070a062a73fce3971726630dc12ff3617ac151818",
+    "name": "Alvaro Araujo Pinto",
+    "status": "active",
+    "avg": 4.74,
+    "count": 19
+  },
+  {
+    "id": "a.carrera",
+    "hash": "d522183c71ddfc5119ed8441c6213fb0ca5d4d8281add038de5d214991cc7693",
+    "name": "Alvaro Carrera Barroso",
+    "status": "active",
+    "avg": 3.5,
+    "count": 12
+  },
+  {
+    "id": "alvarodeguzman.fernandez",
+    "hash": "9470ebdcf47f9f4f2d3950693d8dd6af8c033af4f8787672ad4184927d608282",
+    "name": "Alvaro de Guzman Fernandez Gonzalez",
+    "status": "active",
+    "avg": 4.33,
+    "count": 3
+  },
+  {
+    "id": "a.gutierrez",
+    "hash": "2641d8428a3aab84c87de2651c33226f17655c5ec1268c4b33ce00d746666df8",
+    "name": "Alvaro Gutierrez Martin",
+    "status": "active",
+    "avg": 2.17,
+    "count": 6
+  },
+  {
+    "id": "amadeo.degracia",
+    "hash": "976f30d5bc3771491d1ecf480ee35878ce0fbfb78826e05fa1b2427be58e8900",
+    "name": "Amadeo De Gracia Herranz",
+    "status": "active",
+    "avg": 2,
+    "count": 7
+  },
+  {
+    "id": "amalio.nieto",
+    "hash": "e57587a0a1ed09bd71f6f357182db9dba768c9f783f0ca801da4b80652f97d5c",
+    "name": "Amalio Francisco Nieto Serrano",
+    "status": "active",
+    "avg": 3,
+    "count": 2
+  },
+  {
+    "id": "anamaria.bernardos",
+    "hash": "83387587f20c873bf8d1a73532383e63d7b5269313fb9d5125e71f59d8ae1de5",
+    "name": "Ana Maria Bernardos Barbolla",
+    "status": "active",
+    "avg": 3.09,
+    "count": 22
+  },
+  {
+    "id": "anamaria.ugena",
+    "hash": "3904dc86e774838c947577dbfa877eebfa768657a80061672d9710de359c3f77",
+    "name": "Ana Maria Ugena Martinez",
+    "status": "active",
+    "avg": 2.1,
+    "count": 20
+  },
+  {
+    "id": "andres.santos",
+    "hash": "baa20d50c11e42e326d544925c9df0cd0f3d1aa311ac7678206664afbccc6b28",
+    "name": "Andres De Santos Lleo",
+    "status": "active",
+    "avg": 4.56,
+    "count": 9
+  },
+  {
+    "id": "andres.diaz",
+    "hash": "00e1c570e3ec9f0ae0c197f762a1f5ea1cbcf5f1dc94c3fa7075c6ebdf7a2995",
+    "name": "Andres Diaz Lantada",
+    "status": "active",
+    "avg": 5,
+    "count": 1
+  },
+  {
+    "id": "andres.mlopez",
+    "hash": "5f822f743f6fc9ff79a0cf3d16c14b8f48045de452f0c84ac13af8994de6fc72",
+    "name": "Andres Isaac Marin Lopez",
+    "status": "active",
+    "avg": 2.6,
+    "count": 5
+  },
+  {
+    "id": "andrespedro.gonzalez",
+    "hash": "acb63411a9b47caefcb4a3eff2730d64ec80fe95ea0bb9643014ff51a077842d",
+    "name": "Andres Pedro Gonzalez Lanceros",
+    "status": "active",
+    "avg": 2.27,
+    "count": 11
+  },
+  {
+    "id": "andres.rodriguez.dominguez",
+    "hash": "9917d0819d80320a78a2d257170442d796a40ff39e81bdb71c53b6bb1121d7a9",
+    "name": "Andres Rodriguez Dominguez",
+    "status": "active",
+    "avg": 3.11,
+    "count": 9
+  },
+  {
+    "id": "angel.hernandez",
+    "hash": "30572a00fcf3b6a2c98087101a5c96cb92a298635087b12ced80b8d447aa8433",
+    "name": "Angel Hernandez Garcia",
+    "status": "active",
+    "avg": 3.57,
+    "count": 7
+  },
+  {
+    "id": "angel.yague",
+    "hash": "c4bbbefa20ccd80cdf7d0f3ddbbcb30616768f269dae61ea218ff0ee639b2b65",
+    "name": "Angel Yague Hernan",
+    "status": "active",
+    "avg": 4,
+    "count": 2
+  },
+  {
+    "id": "angela.castillo",
+    "hash": "ffe4f87994c5c9e55e3a16aea7cb0e3622fa4e1c97e82fdc4883f2165afd3cca",
+    "name": "Angela Castillo Lopez",
+    "status": "active",
+    "avg": 3,
+    "count": 9
+  },
+  {
+    "id": "antoniojesus.diaz",
+    "hash": "39c990c9e1a53a7d221eb4c5479186603e2fd0765ae21637cae90789ba6f34ed",
+    "name": "Antonio Jesus Diaz Honrubia",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "antonio.marti",
+    "hash": "80655101b1ad5e12d2542487f780b5398fcf2861de10cee71c3615d81440e28e",
+    "name": "Antonio Marti Vega",
+    "status": "active",
+    "avg": 4,
+    "count": 1
+  },
+  {
+    "id": "antonio.perez.serrano",
+    "hash": "a0a78dde25a85c4cc36298000b9a7661807b47c127fa4676b361c81800ecb194",
+    "name": "Antonio Perez Serrano",
+    "status": "active",
+    "avg": 3.33,
+    "count": 6
+  },
+  {
+    "id": "antonio.ros",
+    "hash": "2193927179a734d0bb509bc94b364941a7533953ea5baad6b3ba92676bfa5c71",
+    "name": "Antonio Ros Felip",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "belen.galocha",
+    "hash": "4016ba06b0bd305d060f720201025443057207a842bc95cf82e128bd93f2702c",
+    "name": "Belen Galocha Iraguen",
+    "status": "active",
+    "avg": 3.26,
+    "count": 19
+  },
+  {
+    "id": "benito.artaloytia",
+    "hash": "0d2ea85a05ab82743e81ce03e012b3af50d9edd630b124d98487c373c2f1d9eb",
+    "name": "Benito Artaloytia Encinas",
+    "status": "active",
+    "avg": 4.33,
+    "count": 9
+  },
+  {
+    "id": "blanca.gbermudez",
+    "hash": "a6c7c918012fccb6431408a25364f54ad902405a4b4b74a3069617a395646bad",
+    "name": "Blanca de los Reyes Gonzalez Bermudez",
+    "status": "active",
+    "avg": 4,
+    "count": 1
+  },
+  {
+    "id": "blanca.larraga",
+    "hash": "f4241e559b9cfec061e7acb0eae1fd13f95fe85229cd322b8cc4d5eb73034d73",
+    "name": "Blanca Larraga Garcia",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "borja.bordel",
+    "hash": "8edd9eb71a032b25835617797fd76885ab6d59a356ac04b810898e3d0924f6b1",
+    "name": "Borja Bordel Sanchez",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "bryan.strange",
+    "hash": "3b0247f937f2eb01de79bd36c9ea74dca359ac0f5621a00d6fc5e1fb1190e58e",
+    "name": "Bryan Strange",
+    "status": "active",
+    "avg": 4.67,
+    "count": 3
+  },
+  {
+    "id": "carlos.algora",
+    "hash": "16ed8ed00841aa97146ffa2c80440eb45c3fd2aa10b38c713067095c9e9d4a79",
+    "name": "Carlos Algora del Valle",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "carlosangel.iglesias",
+    "hash": "b5d1b16793f0edf073d5bf634c80e134cb1e3de3a58e1bf66447b132930e224a",
+    "name": "Carlos Angel Iglesias Fernandez",
+    "status": "active",
+    "avg": 3.75,
+    "count": 12
+  },
+  {
+    "id": "carlos.angulo.barrios",
+    "hash": "aca74f67baa1e133751074063b210c5154c519d836e51b71590bb84c7f460ed6",
+    "name": "Carlos Angulo Barrios",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "carlos.carreras",
+    "hash": "cc6fd5e5c26890f55dd6687b862f019d6443c82e4bf708ce199c45fcc5210706",
+    "name": "Carlos Carreras Vaquer",
+    "status": "active",
+    "avg": 3.4,
+    "count": 5
+  },
+  {
+    "id": "carlos.carrillo",
+    "hash": "4cefa213b36bcaeb1e47c4ce4ca4db5fa22a3ab6ed6b61d0cde302b67b92c41b",
+    "name": "Carlos Carrillo Sanchez",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "carlos.cuenca",
+    "hash": "85371bd4500219e472c2f1ce6dee3f5c82a1fc08099029d10d317fea336477d2",
+    "name": "Carlos Cuenca Enrique",
+    "status": "active",
+    "avg": 5,
+    "count": 3
+  },
+  {
+    "id": "carlos.cuevas",
+    "hash": "9fd20b4ef37789c5e56656c97f99a02311ef1bd36990f6e2f0b7c3544423d13d",
+    "name": "Carlos Cuevas Rodriguez",
+    "status": "active",
+    "avg": 4.47,
+    "count": 15
+  },
+  {
+    "id": "carlos.canizo",
+    "hash": "e3a6884c349fa2ddf0f1d16f065e30ce7c3820c106f42064f03d5812d324d763",
+    "name": "Carlos Del Cañizo Nadal",
+    "status": "active",
+    "avg": 1,
+    "count": 2
+  },
+  {
+    "id": "carlos.munoz",
+    "hash": "35df82b42db86957d7859a32bef87df9464c17c88fcf2fa87d469a4483566696",
+    "name": "Carlos Maria Muñoz Perez",
+    "status": "active",
+    "avg": 2.29,
+    "count": 7
+  },
+  {
+    "id": "c.lentisco",
+    "hash": "bd8a6be4117ec8b3f3f18bdaddb45685d085bf563571e2dfbb056cc87235e11d",
+    "name": "Carlos Mariano Lentisco Sanchez",
+    "status": "active",
+    "avg": 4.78,
+    "count": 9
+  },
+  {
+    "id": "carlosrob.delblanco",
+    "hash": "7a0111fb464d13688810a896d337be95f71fbcc0c45edaf8929dad718d29867b",
+    "name": "Carlos Roberto Del Blanco Adan",
+    "status": "active",
+    "avg": 4.75,
+    "count": 4
+  },
+  {
+    "id": "carlos.rojas",
+    "hash": "c0114bab8c949ddde9834e51a2f202089fd8b371d120aaf0a54718ecb42757aa",
+    "name": "Carlos Rojas Segura",
+    "status": "active",
+    "avg": 3.5,
+    "count": 4
+  },
+  {
+    "id": "carmen.szas",
+    "hash": "5bc1bd90da08d40620f7235f58b84dc921d7a7a3311975c4d705248649b71dc1",
+    "name": "Carmen Sanchez Zas",
+    "status": "active",
+    "avg": 4.4,
+    "count": 5
+  },
+  {
+    "id": "carolina.gallardop",
+    "hash": "18a1c0314f90633031e0eeb0d562bb065d2a79d47d9738669b492a98cbfb26a0",
+    "name": "Carolina Gallardo Perez",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "cecilia.vera",
+    "hash": "a489b101c74c8b225c05e305e1f0f6f33e46cd1912abbb697fd50b6fd3505f1d",
+    "name": "Cecilia Vera Muñoz",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "ceferino.maestu",
+    "hash": "36fd07de9910f6202079cc2f09e092319ebf2cbcdac26b154dc30a0a45f42bd4",
+    "name": "Ceferino Maestu Unturbe",
+    "status": "active",
+    "avg": 2.08,
+    "count": 13
+  },
+  {
+    "id": "cesar.dominguez",
+    "hash": "eb53c4eb6f159e90d935746a2345f0e5381edd156f138aae0674d921cceb79bd",
+    "name": "Cesar Dominguez Dominguez",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "cesar.perez",
+    "hash": "d45418d1328f4c8962efb15b0d281f0752c89f65708d752d6a04590658f2923e",
+    "name": "Cesar Felix Perez Ruiz",
+    "status": "active",
+    "avg": 2.78,
+    "count": 9
+  },
+  {
+    "id": "cesar.tablero",
+    "hash": "36e7a77ce9efed04c243391fc8792e42c3c80e035a3da06c39921ac7f840ddbc",
+    "name": "Cesar Tablero Crespo",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "clara.quevedo.galan",
+    "hash": "9f0be05b0f72387cc093aa9c0d6a533d13c09cbd5d4cf0a87ef796b33572d5b4",
+    "name": "Clara Quevedo Galan",
+    "status": "active",
+    "avg": 5,
+    "count": 1
+  },
+  {
+    "id": "clara.sanchez.perez",
+    "hash": "0b36d775a5c61d16b59ac074b30b86b18bafd552a1e2dc352a198ef58286c411",
+    "name": "Clara Sanchez Perez",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "cristina.munozg",
+    "hash": "604e3ad8d434be10b5301fb5b71d5831174a9349ca2fb7b40fa6854196106459",
+    "name": "Cristina Muñoz Garcia",
+    "status": "active",
+    "avg": 4.25,
+    "count": 8
+  },
+  {
+    "id": "cristina.zimbroianu",
+    "hash": "101c2a9c3f44d7dff4b5102700537db052e7bfb74316132118ee49cce526b7e5",
+    "name": "Cristina Zimbroianu",
+    "status": "active",
+    "avg": 1.46,
+    "count": 13
+  },
+  {
+    "id": "daniel.fernandezm",
+    "hash": "f2b9a1ae6c18f9b37acac783e3f4ae399bb719d2c8f2fb07d415d536910c4345",
+    "name": "Daniel Fernandez Muñoz",
+    "status": "active",
+    "avg": 5,
+    "count": 7
+  },
+  {
+    "id": "daniel.gonzalez.nieto",
+    "hash": "8544c226b3bb044b73432e2de3c370b8386a52a7922b372617fee622b39f6e93",
+    "name": "Daniel Gonzalez Nieto",
+    "status": "active",
+    "avg": 2.56,
+    "count": 9
+  },
+  {
+    "id": "daniel.gonzalez.sanchez",
+    "hash": "756bdb6d0521df763731bb7bfe420b40ccb321ff4d04c1153a13bb46880e7604",
+    "name": "Daniel Gonzalez Sanchez",
+    "status": "active",
+    "avg": 5,
+    "count": 4
+  },
+  {
+    "id": "d.carraminana",
+    "hash": "1826b3caabb3b0f8af646e58b43b038dd5426bceb3c24e9dacdffe6f97ccaec9",
+    "name": "David Carramiñana Jimenez",
+    "status": "active",
+    "avg": 3.5,
+    "count": 2
+  },
+  {
+    "id": "david.fernandez",
+    "hash": "f481a9d7f05b6e570e3bf38e920c284a3a37a4ff0c8abe4c7e95208bbfd24467",
+    "name": "David Fernandez Cambronero",
+    "status": "active",
+    "avg": 4.6,
+    "count": 10
+  },
+  {
+    "id": "david.fuertes",
+    "hash": "868eb892bf907b35beaeb61f4de35a64a7d84f0a26acd05a826d9c5a0ee89c9a",
+    "name": "David Fuertes Marron",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "david.meltzer",
+    "hash": "1c0132b952de7916e6be20b8b82c83534517a371c4a8707e7f06f7a16dda8006",
+    "name": "David Jesus Meltzer Camino",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "david.jimenezb",
+    "hash": "917917f3d4e3bf363f2a4d9a0ead907c817f4c370932513f4a71d814b628a235",
+    "name": "David Jimenez Bermejo",
+    "status": "active",
+    "avg": 3.67,
+    "count": 6
+  },
+  {
+    "id": "david.perez.rey",
+    "hash": "dc5fff50d188dfce0fd0c106961c7ce8a0de5888ddae9bb0fdd123a546d76da1",
+    "name": "David Perez del Rey",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "david.rtorrado",
+    "hash": "877ef2e35c33f64e85fa627f31059f7504ee20f028a57221d7741744e7225002",
+    "name": "David Rodriguez Torrado",
+    "status": "active",
+    "avg": 4,
+    "count": 1
+  },
+  {
+    "id": "d.andina",
+    "hash": "9008287e1536c96782b0e6e85a5c0ff3031e309366a1bde9d30193ed391eac96",
+    "name": "Diego Andina De La Fuente",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "diego.martin.de.andres",
+    "hash": "a53c66637d18fc8a8012ff0efe4d9b8cbd8b270577a37ad609bb348ee5ad1f51",
+    "name": "Diego Martin de Andres",
+    "status": "active",
+    "avg": 3.7,
+    "count": 60
+  },
+  {
+    "id": "diego.rivera",
+    "hash": "fbacbee74be7da6c13b4b185fb827fce20357f6ca74982439919a5d1189fa444",
+    "name": "Diego Rivera Pinto",
+    "status": "active",
+    "avg": 1.81,
+    "count": 16
+  },
+  {
+    "id": "eduardo.ballesteros",
+    "hash": "e5bfd4b23de95f7bed176b92ce52a6fcbb9f991fa9dc3ef41eb94f9ad324af62",
+    "name": "Eduardo Ballesteros Martinez",
+    "status": "excluded",
+    "avg": 99,
+    "count": 0
+  },
+  {
+    "id": "eduardo.lopez",
+    "hash": "eb5eb6c6f821e6834d5e845b0cbb3c6aa49e711ef8b294576ec56950d503e380",
+    "name": "Eduardo Lopez Gonzalo",
+    "status": "active",
+    "avg": 2.5,
+    "count": 6
+  },
+  {
+    "id": "elena.carrio",
+    "hash": "f3aa9d02d74d4123bf67c720853107872cbbef328b480e7aebe9d5d542abd05b",
+    "name": "Elena Carrio Gonzalez",
+    "status": "active",
+    "avg": 4,
+    "count": 5
+  },
+  {
+    "id": "elisa.antolin",
+    "hash": "ae297a14cc23ad3e661ec0ce1680bedfb376bbc797c7f539be5aaf2be67b93b5",
+    "name": "Elisa Antolin Fernandez",
+    "status": "active",
+    "avg": 3.15,
+    "count": 20
+  },
+  {
+    "id": "emiliano.acquila",
+    "hash": "4860db34bd4b821e2b0e59e144905d373049f355b73d7353933848648b3a29b6",
+    "name": "Emiliano Acquila Natale",
+    "status": "active",
+    "avg": 3.56,
+    "count": 25
+  },
+  {
+    "id": "enrique.barra",
+    "hash": "21a851936b01f90b12c5d901814aec51ced9ba4437a5a1a6b6fcd8663ebca04e",
+    "name": "Enrique Barra Arias",
+    "status": "active",
+    "avg": 4.66,
+    "count": 29
+  },
+  {
+    "id": "enriquejavier.gomez",
+    "hash": "9149d735f61634d2d218446b4b627bcf2dc535ca29585f6d91a43adf6b32fadf",
+    "name": "Enrique Javier Gomez Aguilera",
+    "status": "active",
+    "avg": 4.5,
+    "count": 4
+  },
+  {
+    "id": "enrique.navarro",
+    "hash": "bdd127a550977e96f45a99113cfac68cd44a7575bc8c87f18ea731dc33ddb0b4",
+    "name": "Enrique Navarro Cabello",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "enrique.vazquez",
+    "hash": "9b23114f3f917938bff7527de6fbee3c95f7d7f1baf987cc4f249f81db323bf3",
+    "name": "Enrique Vazquez Gallo",
+    "status": "active",
+    "avg": 2.46,
+    "count": 13
+  },
+  {
+    "id": "ernestina.menasalvas",
+    "hash": "00dc38f09debeeb1d5e8f758c40d1cfa56e6f679c1b30541a3763c2e6d220951",
+    "name": "Ernestina Menasalvas Ruiz",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "esther.lopez.estrada",
+    "hash": "15858af3f17fa4e34adab728f58fbe1f4ca0dc9aded455e6c104228078ec52a8",
+    "name": "Esther Lopez Estrada",
+    "status": "active",
+    "avg": 4.85,
+    "count": 13
+  },
+  {
+    "id": "eva.miedes",
+    "hash": "dbcd6d0a11cd813351df4bc85cea98793bfea012a807eb673fb18766a77065b9",
+    "name": "Eva Miedes Vicente",
+    "status": "active",
+    "avg": 4.67,
+    "count": 12
+  },
+  {
+    "id": "javier.casajus",
+    "hash": "eafe0fb92db41ff45f98ba178916f2eb0cc736029c819f3fa6dd2568da5308c8",
+    "name": "Fco. Javier Casajus de Quiros",
+    "status": "active",
+    "avg": 3.67,
+    "count": 3
+  },
+  {
+    "id": "federico.alvarez",
+    "hash": "ba2381045553c609ed1fac69be1f3410c4421c74eb6739fe0cd2142e53cf486c",
+    "name": "Federico Alvarez Garcia",
+    "status": "active",
+    "avg": 2.68,
+    "count": 25
+  },
+  {
+    "id": "javier.munoz",
+    "hash": "4cebc254adf1945b85a9cf10dfff52e658c7486b9cc066ec36c5cee1550ac95f",
+    "name": "Federico Javier Muñoz Cano",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "felixjose.pascual",
+    "hash": "0ceaae64ee73665331adfe676388a0d9ad2721aaca71c6c1a374854751007c87",
+    "name": "Felix Jose Pascual Miguel",
+    "status": "active",
+    "avg": 3.8,
+    "count": 5
+  },
+  {
+    "id": "felix.perez.martinez",
+    "hash": "669eda6438f7363858b7cf4f63a24b7ca723a03a7fffd570e8d09dd3e0910862",
+    "name": "Felix Perez Martinez",
+    "status": "active",
+    "avg": 4.33,
+    "count": 3
+  },
+  {
+    "id": "fernando.fernandezm",
+    "hash": "eb465b746f22ecb97e4fad269c5de3839668909aa6e6139628bdfd3d69c0de78",
+    "name": "Fernando Fernandez Martinez",
+    "status": "active",
+    "avg": 4.23,
+    "count": 13
+  },
+  {
+    "id": "fernando.herrera",
+    "hash": "755214319ae578420aeec375ba1add3995382b55c56db037e752139c2a2ccc78",
+    "name": "Fernando Herrera Gonzalez",
+    "status": "active",
+    "avg": 3.08,
+    "count": 12
+  },
+  {
+    "id": "f.ibanez",
+    "hash": "077a900b31464a490d61c53a01432c82fd8570c0eeb85153e83503058947fde8",
+    "name": "Fernando Ibañez Urzaiz",
+    "status": "active",
+    "avg": 4.2,
+    "count": 10
+  },
+  {
+    "id": "fernando.jaureguizar",
+    "hash": "c07e3b8b58dba20e725f1db25048a26e1b3fb57bfb2111e5fe880cf2d0603935",
+    "name": "Fernando Jaureguizar Nuñez",
+    "status": "active",
+    "avg": 3.29,
+    "count": 7
+  },
+  {
+    "id": "eduardo.carrasco",
+    "hash": "16c2bccab7584cf9bbd2b5eb576b7889078ce1ee8d22ea0efad34c58838eb7ee",
+    "name": "Francisco Eduardo Carrasco Yepez",
+    "status": "active",
+    "avg": 3.15,
+    "count": 20
+  },
+  {
+    "id": "ff.lazaro",
+    "hash": "304aa9d216cc99d30465792376b6a2b9f4b8419ad34a5d03a0ed44e3b02dee23",
+    "name": "Francisco Faustino Lazaro Anguis",
+    "status": "active",
+    "avg": 4,
+    "count": 1
+  },
+  {
+    "id": "francisco.gonzalez.sanchez",
+    "hash": "69a33456ac7784259822ed0ae12c4a9c9ddb2db91ef0be582d1a072f7fc4c930",
+    "name": "Francisco Gonzalez Sanchez",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "francisco.jimenez",
+    "hash": "53da9afb267ea172947aa485c86cb7898661bde34bc085a67747fbbf9ec4f42d",
+    "name": "Francisco J. Jimenez Leube",
+    "status": "active",
+    "avg": 3.33,
+    "count": 3
+  },
+  {
+    "id": "fj.rojo",
+    "hash": "119089fb021ba113c82a6026a937803e5b53b48d8693bf4cc75cb983ba18eade",
+    "name": "Francisco Javier Rojo Perez",
+    "status": "active",
+    "avg": 3,
+    "count": 1
+  },
+  {
+    "id": "francisco.lopez.hernandez",
+    "hash": "45510209028ba8eb17a127daeb947c49ef24824e561f41ebcdaafbb48e2ddf58",
+    "name": "Francisco Jose Lopez Hernandez",
+    "status": "active",
+    "avg": 3.8,
+    "count": 5
+  },
+  {
+    "id": "francisco.navarro",
+    "hash": "7fad39df093b80f726493d4b3a4df0608fb901f9b76a7678cec0a5023055dab0",
+    "name": "Francisco Jose Navarro Valero",
+    "status": "active",
+    "avg": 4.5,
+    "count": 2
+  },
+  {
+    "id": "francisco.moran",
+    "hash": "7acd1dfa9d6e75cbdce1e503503e030ea940860d9429aafe667eee0a84d1e341",
+    "name": "Francisco Moran Burgos",
+    "status": "active",
+    "avg": 4.2,
+    "count": 10
+  },
+  {
+    "id": "gabriel.huecas",
+    "hash": "6c9d355de65a517e87fd84a28789907e2c10dbd4cd6cb17190eb3f7bbfdac589",
+    "name": "Gabriel Huecas Fernandez-Toribio",
+    "status": "active",
+    "avg": 2.69,
+    "count": 26
+  },
+  {
+    "id": "gema.garcia.saez",
+    "hash": "cd47e7a0a040f19a964c9b9d1528da8cbc317066cda295c6068ef584f3c8cc76",
+    "name": "Gema Garcia Saez",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "g.kontaxakis",
+    "hash": "93d8cf3ce038f597b0921d7afbee5a80afb8411a4b734ad136b19ffaa91a27cb",
+    "name": "Georgios Kontaxakis Antoniadis",
+    "status": "active",
+    "avg": 3.79,
+    "count": 14
+  },
+  {
+    "id": "gerardo.perezp",
+    "hash": "e64379e8c776b7410ee77bf7bb26279a2550a0f2bfa91ac3064683adabfa785e",
+    "name": "Gerardo Perez Palomino",
+    "status": "active",
+    "avg": 4.59,
+    "count": 22
+  },
+  {
+    "id": "giuseppe.fico",
+    "hash": "77bc105bb032e1047069f9e6f529a36ca59b3e556448f4a1cc6d8c70971d6925",
+    "name": "Giuseppe Fico",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "gonzalo.demiguel",
+    "hash": "938bbc554c106200a5d0c95f0717d0558f97a67e79c388d565fd02fd4a5aaab6",
+    "name": "Gonzalo C. De Miguel Vela",
+    "status": "active",
+    "avg": 3.1,
+    "count": 10
+  },
+  {
+    "id": "gregorio.romero",
+    "hash": "3465e41fbc8f3e95df9d28428713101f0cc12998c4b3a2a43caa06ef29d81634",
+    "name": "Gregorio Romero Rey",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "guillermo.delcampo",
+    "hash": "0ea2df65ff8fd2533f4b0c6bf487bc25756e52b94145db349be8cb171787ba85",
+    "name": "Guillermo del Campo Jiménez",
+    "status": "active",
+    "avg": 3.25,
+    "count": 4
+  },
+  {
+    "id": "gustavo.plaza",
+    "hash": "2e3d32d6c408b25e237f39d85fbe7de08023ce85022c246f74eee07ad88f6057",
+    "name": "Gustavo Ramon Plaza Baonza",
+    "status": "active",
+    "avg": 5,
+    "count": 1
+  },
+  {
+    "id": "ignacio.esquivias",
+    "hash": "d5592d0ccd32c8f21ccb93bbba326cd5ad1f2502ba90870d2393b66bc62d7184",
+    "name": "Ignacio Esquivias Moscardo",
+    "status": "active",
+    "avg": 3,
+    "count": 2
+  },
+  {
+    "id": "i.oropesa",
+    "hash": "ab3f1e364b809ca85dd934f3c14d082c480a5a711da59a81ab56b26c8b083158",
+    "name": "Ignacio Oropesa Garcia",
+    "status": "active",
+    "avg": 4,
+    "count": 2
+  },
+  {
+    "id": "ignacio.reystolle",
+    "hash": "33be8496868c8e5798edd01fd7a0b86a1a31274350ec5ad37b88a65717a6d45b",
+    "name": "Ignacio Rey-Stolle Prado",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "ignacio.soto",
+    "hash": "0ef56a802486c473ba6364708918c9f46240242fe52ca40ec1f7a25b340912b5",
+    "name": "Ignacio Soto Campos",
+    "status": "active",
+    "avg": 3,
+    "count": 12
+  },
+  {
+    "id": "ivan.garciav",
+    "hash": "3a496f3316a6b6699e18302ae66a78897c9f4d84e1d16b530846eea4e1383136",
+    "name": "Ivan Garcia Vara",
+    "status": "active",
+    "avg": 3.67,
+    "count": 3
+  },
+  {
+    "id": "ivan.pau",
+    "hash": "f6c288fd72132b990f878b7c48f53807126ef24e6611f73292145cd9218c4a8f",
+    "name": "Ivan Pau de la Cruz",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "jaime.esteban",
+    "hash": "c0726999db773625ae0dee5a000824fcaccc03597d67dab791ddc9ca2ed6997d",
+    "name": "Jaime Esteban Marzo",
+    "status": "active",
+    "avg": 4.75,
+    "count": 8
+  },
+  {
+    "id": "jaime.otero",
+    "hash": "657ef2adca535b813220996f3a31f3120f137304efc218c552f05bea38003b49",
+    "name": "Jaime Otero Garcia",
+    "status": "active",
+    "avg": 3.95,
+    "count": 19
+  },
+  {
+    "id": "j.andion",
+    "hash": "1ba6adcf1e7ea96ac1ec5cd1eaf3036722ba00df235b070e9bfd4b99e0a36e43",
+    "name": "Javier Andion Jimenez",
+    "status": "active",
+    "avg": 3.48,
+    "count": 23
+  },
+  {
+    "id": "javier.conde.diaz",
+    "hash": "7937250dce64d156ba62cab2f6f6b02e7330ff437dac43caa67f15c2b0b172c1",
+    "name": "Javier Conde Diaz",
+    "status": "active",
+    "avg": 3.32,
+    "count": 22
+  },
+  {
+    "id": "javier.ferreiros",
+    "hash": "0aa3c2183b2ddeca3da72dd8e7270084836ae59a1a227f5a3eeaf364f02ccf46",
+    "name": "Javier Ferreiros Lopez",
+    "status": "active",
+    "avg": 2.92,
+    "count": 13
+  },
+  {
+    "id": "javier.garciag",
+    "hash": "d63ddc1fa19f92b88883bacbac6c52756f12abbb7d61412024407440c90bd27d",
+    "name": "Javier Garcia Garcia",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "javier.gismero",
+    "hash": "cc5c7667844d76e7ef12a891b36a402a104fdb963885c1fcd0758754c96f29c6",
+    "name": "Javier Gismero Menoyo",
+    "status": "active",
+    "avg": 3.6,
+    "count": 10
+  },
+  {
+    "id": "javier.grandal",
+    "hash": "9e5091b09777145bc31ee1c209873e025f0e417fa6d8716c7535dc014ae3a7bc",
+    "name": "Javier Grandal Quintana",
+    "status": "active",
+    "avg": 4.84,
+    "count": 32
+  },
+  {
+    "id": "javier.herrero",
+    "hash": "2b557828cc17dbf5c1623bc28425a3312dee328e36e39852f97f3d4f24b1135e",
+    "name": "Javier Herrero Ruiz",
+    "status": "active",
+    "avg": 3.5,
+    "count": 4
+  },
+  {
+    "id": "javier.portillo.garcia",
+    "hash": "057e9cff54070b2c05c2d8afe1da355621094d9eaa9d5b10ffe1b62b92977b69",
+    "name": "Javier Ignacio Portillo Garcia",
+    "status": "active",
+    "avg": 4.5,
+    "count": 2
+  },
+  {
+    "id": "javier.martin",
+    "hash": "e653be3024f68fff2a6ce45979e094d70d57f034d32e7b520c84d7060c5ffd5e",
+    "name": "Javier Martin Rueda",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "javier.pereiro.garcia",
+    "hash": "a84505b1092301d5bc0119e8cd1aa5cc58ec4f785718d80e66099e7852dd13aa",
+    "name": "Javier Pereiro Garcia",
+    "status": "active",
+    "avg": 5,
+    "count": 1
+  },
+  {
+    "id": "j.rodriguez",
+    "hash": "f3110a832f0cc8ccbb375f6f51cd55cd8918e10c7124f0a5ce780e0dedb1dca7",
+    "name": "Javier Rodriguez Herraiz",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "jc.abderraman",
+    "hash": "efff0364b969e54b94ccb4f2b8c453bd7d8bfccceba417b04cfcd15fc6324fb5",
+    "name": "Jesus Carmelo Abderraman Marrero",
+    "status": "excluded",
+    "avg": 99,
+    "count": 0
+  },
+  {
+    "id": "jesus.garcia.jimenez",
+    "hash": "9b5e2d6ab85cd969d8f131c656b8382774330e921541d51e64f9a75006dd4b16",
+    "name": "Jesus Garcia Jimenez",
+    "status": "excluded",
+    "avg": 99,
+    "count": 0
+  },
+  {
+    "id": "jesus.grajal",
+    "hash": "9704bf06bcdc3028beb379f7dd9e05e6437e94471de103bebf094a634849570f",
+    "name": "Jesus Grajal de la Fuente",
+    "status": "active",
+    "avg": 4.35,
+    "count": 31
+  },
+  {
+    "id": "gustavo.cuevas",
+    "hash": "3862d4b9fbdff27d901eab9af1399b43499800c9cd65547783fc49ed0b11931c",
+    "name": "Jesus Gustavo Cuevas Del Rio",
+    "status": "active",
+    "avg": 1.33,
+    "count": 12
+  },
+  {
+    "id": "jesus.gutierrez",
+    "hash": "b999247fc87a3b1f3c8202302b027c9b15f7f9fb948ef17ee5bda07ff2d1e340",
+    "name": "Jesus Gutierrez Sanchez",
+    "status": "active",
+    "avg": 4,
+    "count": 1
+  },
+  {
+    "id": "jesus.sanchezl",
+    "hash": "7d7c9dcfa600a9aa037349b4e52831de3d7e80a85b9262cc7cb2ca51478fabe2",
+    "name": "Jesus Sanchez Lopez",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "jimena.olivares",
+    "hash": "2cf36f7ea70036954537b7817610e07a8f0d3cee568313bffefa7216b21c30ba",
+    "name": "Jimena Olivares Roza",
+    "status": "active",
+    "avg": 5,
+    "count": 9
+  },
+  {
+    "id": "joaquin.salvachua",
+    "hash": "1cf50d29dd76809b2aed1c549d74b48a418625b22d988e3a77c909c50600fd54",
+    "name": "Joaquin Luciano Salvachua Rodriguez",
+    "status": "active",
+    "avg": 2.04,
+    "count": 23
+  },
+  {
+    "id": "jorge.blasco.alis",
+    "hash": "e13b8273bcd37fccdf13310ac3710dd13ac8522a9ef13dd709e81674467ff1ee",
+    "name": "Jorge Blasco Alis",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "jorge.davila",
+    "hash": "f75f1533ff2d6491841bc25e135cc5af1d939a7619291a9ce0d89ef91300726d",
+    "name": "Jorge Davila Muro",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "jorge.perez.martinez",
+    "hash": "48df1a76a28370acc2e6da96761b1b8da2aa21dae9ea1c20dcbbbd1164379ae1",
+    "name": "Jorge Emiliano Perez Martinez",
+    "status": "active",
+    "avg": 4,
+    "count": 3
+  },
+  {
+    "id": "jorge.gcarnicero",
+    "hash": "c2cbf24b2d7865f55d0e7aabb10e6a3d631906dc8a8c1783244ea3b42e2b2fa9",
+    "name": "Jorge Garcia Carnicero",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "jorge.martin.perez",
+    "hash": "f9a8da853e55ad98609ae89e032d95531b0c353432d9afd4da3b6f657156a0ca",
+    "name": "Jorge Martin Perez",
+    "status": "active",
+    "avg": 4.14,
+    "count": 14
+  },
+  {
+    "id": "j.pedros",
+    "hash": "6539c4f5a1ce1eed2acd81df86e9cce33ccf50b0eed4e2c9aa8456053744fde2",
+    "name": "Jorge Pedros Ayala",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "joseandres.munoz",
+    "hash": "262b6606c07389fa20736c4c6043c9ab59c25dbb1bb62a2b3ef20b44d16a0c55",
+    "name": "Jose Andres Muñoz Arcentales",
+    "status": "active",
+    "avg": 2.3,
+    "count": 23
+  },
+  {
+    "id": "jose.crespo",
+    "hash": "b001976232f06d659636fb1c9a77c59c391ba755e66d37a80a1ac4bf391fc15a",
+    "name": "Jose Crespo del Arco",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "joseignacio.alonso",
+    "hash": "d35d9948190338c0b1d20961d5757996834442db30eb60d5138c528a28457cdf",
+    "name": "Jose Ignacio Alonso Montes",
+    "status": "active",
+    "avg": 2.75,
+    "count": 4
+  },
+  {
+    "id": "joseignacio.moreno",
+    "hash": "dbf2dc7928ba537e91677c928b4d69ab4a23e08425c15e60ff7f03f4142f244a",
+    "name": "Jose Ignacio Moreno Novella",
+    "status": "active",
+    "avg": 2.76,
+    "count": 25
+  },
+  {
+    "id": "joseignacio.ronda",
+    "hash": "aeab0af9bd94ec6db98f366e8e8e2eb36d8a81300e1add899098ce11c1cf7ee9",
+    "name": "Jose Ignacio Ronda Prieto",
+    "status": "excluded",
+    "avg": 99,
+    "count": 0
+  },
+  {
+    "id": "josejavier.serrano",
+    "hash": "65ee9a125542896e47d1b39ba0fa192afb0e74d9e17d519d1b205fb4097fb4f8",
+    "name": "Jose Javier Serrano Olmedo",
+    "status": "active",
+    "avg": 1.67,
+    "count": 6
+  },
+  {
+    "id": "jesus.fraile.ardanuy",
+    "hash": "0d2efa78a2afea4ed036495aafaeaf6f32791bdc2e093fbbe08a37425c52c151",
+    "name": "Jose Jesus Fraile Ardanuy",
+    "status": "active",
+    "avg": 3.85,
+    "count": 13
+  },
+  {
+    "id": "julian.chaparro",
+    "hash": "dcdac4c298956e45182d5cee51620e852438b220b1ce7041f9341b7f23f97f2f",
+    "name": "Jose Julian Chaparro Pelaez",
+    "status": "active",
+    "avg": 2.9,
+    "count": 10
+  },
+  {
+    "id": "jl.blanco",
+    "hash": "902eedf953cd0796e3d57ee378e89d68dc3500beb4effc683b2f24666159165a",
+    "name": "Jose Luis Blanco Murillo",
+    "status": "active",
+    "avg": 4.79,
+    "count": 24
+  },
+  {
+    "id": "joseluis.masa",
+    "hash": "1d4e4f479836bd567a8850a85f41db63a83f60bb540ed84c535550781702b24b",
+    "name": "Jose Luis Masa Campos",
+    "status": "active",
+    "avg": 2.25,
+    "count": 4
+  },
+  {
+    "id": "joseluis.prieto",
+    "hash": "7c62dab3c4e3d54c63d077faa06e2743086f1fad233fed9c1cfe460f1475f194",
+    "name": "Jose Luis Prieto Martin",
+    "status": "active",
+    "avg": 4.75,
+    "count": 4
+  },
+  {
+    "id": "jm.carmona",
+    "hash": "a6254d206328635b3ee112d9fcadb01bf96cc41768917d6e8058db9a90392951",
+    "name": "Jose Manuel Carmona Cejas",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "josemanuel.fernandez.gonzalez",
+    "hash": "f281e9ab6baa02ded115c176ece817b685c0e6116ede7a541a0104ab76c682f6",
+    "name": "Jose Manuel Fernandez Gonzalez",
+    "status": "active",
+    "avg": 3.88,
+    "count": 24
+  },
+  {
+    "id": "jm.menendez",
+    "hash": "207c89bb98933fc21beb805b53442163a05778196fef2068fa5a9fb9f548d4a8",
+    "name": "Jose Manuel Menendez Garcia",
+    "status": "active",
+    "avg": 3.67,
+    "count": 3
+  },
+  {
+    "id": "jm.moya",
+    "hash": "7e5d36ab8415d14dff50b5e51be51b2e1b3a286cc72c94fd77e4843f25127e4b",
+    "name": "Jose Manuel Moya Fernandez",
+    "status": "active",
+    "avg": 1.5,
+    "count": 8
+  },
+  {
+    "id": "josemanuel.pardom",
+    "hash": "3c8209923ead9a6655f8927594aa5f720ac5174d1359a6e51ccbf8a2321d2fbf",
+    "name": "Jose Manuel Pardo Muñoz",
+    "status": "active",
+    "avg": 1.33,
+    "count": 18
+  },
+  {
+    "id": "jm.riera",
+    "hash": "12c1aa663b9c8cab765c53b544eb86665b69582a65f0c68da0cd11d9acb83a92",
+    "name": "Jose Manuel Riera Salis",
+    "status": "active",
+    "avg": 4.19,
+    "count": 16
+  },
+  {
+    "id": "jm.delalamo",
+    "hash": "841e4744479cd9d8465bb89348888a11a5f9b17821ca20e29a558376654a8557",
+    "name": "Jose Maria Del Alamo Ramiro",
+    "status": "active",
+    "avg": 4.58,
+    "count": 24
+  },
+  {
+    "id": "josemaria.gil",
+    "hash": "b76393c9460f2d64d26409a95a704fb6caadb381f12bbc2ea84536088836b6aa",
+    "name": "Jose Maria Gil Gil",
+    "status": "active",
+    "avg": 2.17,
+    "count": 18
+  },
+  {
+    "id": "jose.goicolea",
+    "hash": "5260fd9073180e27f0fc50d2e0282703f577fbfd87bd724d1f1a5deb9c55e6b1",
+    "name": "Jose Maria Goicolea Ruigomez",
+    "status": "active",
+    "avg": 1.42,
+    "count": 12
+  },
+  {
+    "id": "josemiguel.goni",
+    "hash": "c309884004e883438cc903f72cde32ca9646d47af3181123b43eda65bcd287c9",
+    "name": "Jose Miguel Goñi Menoyo",
+    "status": "active",
+    "avg": 2.44,
+    "count": 25
+  },
+  {
+    "id": "jose.parera",
+    "hash": "6fc60fb8db4b2a1289eba34b47f43f65f0c6ce90962c0ad7ceb647676d882ba6",
+    "name": "Jose Parera Bermudez",
+    "status": "active",
+    "avg": 4.73,
+    "count": 11
+  },
+  {
+    "id": "jose.perez",
+    "hash": "baeebdcb0c416375f3714f843db41453d04d762899d4543af4e29ad6725560d1",
+    "name": "Jose Perez Rigueiro",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "joseramon.casar",
+    "hash": "bf7a37b6144dbcfff680d934046b3adb847996166415edca509aaf60b5f96609",
+    "name": "Jose Ramon Casar Corredera",
+    "status": "active",
+    "avg": 2.5,
+    "count": 2
+  },
+  {
+    "id": "joseramon.lopez",
+    "hash": "ac8e5af698445537f564238b8e7c56cb39962af193a49eab3773625b6d4ab8b2",
+    "name": "Jose Ramon Lopez Llana",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "joseramon.montejo",
+    "hash": "48ed0e6621e43984aeefe9ec032345d250236af39a1e9774a44b2bf371dfebc6",
+    "name": "Jose Ramon Montejo Garai",
+    "status": "active",
+    "avg": 2.32,
+    "count": 59
+  },
+  {
+    "id": "j.pagan",
+    "hash": "a11000c5aeb119ae386b301f357753268bbdc94633cef983627fd50ea6507e82",
+    "name": "Josue Pagan Ortiz",
+    "status": "active",
+    "avg": 5,
+    "count": 8
+  },
+  {
+    "id": "juanalberto.besada",
+    "hash": "713c16c659f720423a5b1cdd57cb46d52abb0380ab1510ce433585e5442d0387",
+    "name": "Juan Alberto Besada Portas",
+    "status": "active",
+    "avg": 3.5,
+    "count": 4
+  },
+  {
+    "id": "juanalberto.defrutos",
+    "hash": "05e99177a1f7105c8056cdcd529269ecdb789ad53673795dcaa8e38cdbeb084d",
+    "name": "Juan Alberto De Frutos Velasco",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "juanantonio.lopez",
+    "hash": "dfd396f1f1143edc9b081351e458f8d9cab53b7d5cb1116046f59553a60eae93",
+    "name": "Juan Antonio Lopez Martin",
+    "status": "active",
+    "avg": 5,
+    "count": 3
+  },
+  {
+    "id": "juanantonio.saras",
+    "hash": "23b271f03dd74aa75a61215427c595b7d15e9aae54b2afbdf1cec70b90fd4e2e",
+    "name": "Juan Antonio Saras Pazos",
+    "status": "active",
+    "avg": 3.2,
+    "count": 5
+  },
+  {
+    "id": "juancarlos.duenas",
+    "hash": "431b9775cc9760866be95b5ac824cebc4b552060bbd2c39a9dd4560127eacf54",
+    "name": "Juan Carlos Dueñas Lopez",
+    "status": "excluded",
+    "avg": 99,
+    "count": 0
+  },
+  {
+    "id": "juancarlos.garcia",
+    "hash": "c657eecd16826dac2cbb427d92360141ce7d5bec199816224b8395cbfb8b764d",
+    "name": "Juan Carlos Garcia Orden",
+    "status": "active",
+    "avg": 2.56,
+    "count": 9
+  },
+  {
+    "id": "juancarlos.gonzalezl",
+    "hash": "73f3ad77e34088d9e016ae53ee338751c7f16e4c621739b46900897358ff87a9",
+    "name": "Juan Carlos Gonzalez Lopez",
+    "status": "active",
+    "avg": 1,
+    "count": 1
+  },
+  {
+    "id": "juancarlos.yelmo",
+    "hash": "bba687c296b91f92e464cfefcd81317e54daf354ce9650d7d50b4b35c9a18ae0",
+    "name": "Juan Carlos Yelmo Garcia",
+    "status": "active",
+    "avg": 2.47,
+    "count": 15
+  },
+  {
+    "id": "juan.cires",
+    "hash": "2e77824b87964abd31191687b2f8066322fc2b074dc886fce7fe2e68847d3821",
+    "name": "Juan Cires Martinez",
+    "status": "active",
+    "avg": 2.36,
+    "count": 14
+  },
+  {
+    "id": "jf.sanchez",
+    "hash": "585c49c957d170e780efdae4fb080bec67fadaa019e0b9961dd24323ae6a3309",
+    "name": "Juan Fernando Sanchez Rada",
+    "status": "active",
+    "avg": 3.35,
+    "count": 17
+  },
+  {
+    "id": "ignacio.godino",
+    "hash": "63d395ad9d38c95e8fede9282ed25165dbeac7aceb168c408eb463ce4e3075ba",
+    "name": "Juan Ignacio Godino Llorente",
+    "status": "active",
+    "avg": 3.91,
+    "count": 11
+  },
+  {
+    "id": "juan.seijas",
+    "hash": "a90ce19646250cf5f648ec0692126f0a8ba49ae83be1264a2c8c6c021dcefb67",
+    "name": "Juan Isidoro Seijas Martinez-Echevarria",
+    "status": "active",
+    "avg": 3,
+    "count": 1
+  },
+  {
+    "id": "juanjo.gomez",
+    "hash": "d18aff5f66ff9e4a9efd09532c753fa2441435b8fafb162e7690697c0d4000d2",
+    "name": "Juan Jose Gomez Valverde",
+    "status": "active",
+    "avg": 4.43,
+    "count": 7
+  },
+  {
+    "id": "juanjose.vinagre",
+    "hash": "859757c418e3cac50c007103a16cd4f29b26db2e7c5a37961aafa6d49bd006b9",
+    "name": "Juan Jose Vinagre Diaz",
+    "status": "active",
+    "avg": 4.61,
+    "count": 36
+  },
+  {
+    "id": "juanluis.redondo",
+    "hash": "5a641e487f91f0dfe9de0f552fa117d7422a31fd8aabc5b7e7593aefcb6c99cc",
+    "name": "Juan Luis Redondo Maillo",
+    "status": "active",
+    "avg": 5,
+    "count": 4
+  },
+  {
+    "id": "juanmanuel.montero",
+    "hash": "8131682a43d02faa033913f2cd7bf6a44791333bfd4bf3ee4ec28e8089f92b85",
+    "name": "Juan Manuel Montero Martinez",
+    "status": "active",
+    "avg": 3,
+    "count": 11
+  },
+  {
+    "id": "j.parras",
+    "hash": "a9e3b3f539348e7878fc4c58e65d821bf66f7f96963a8a1f8d9dc434a1839c23",
+    "name": "Juan Parras Moral",
+    "status": "active",
+    "avg": 5,
+    "count": 3
+  },
+  {
+    "id": "julian.cabrera",
+    "hash": "47f89ba32ad0f65fdb3ef193ba6d42bd3338910748e1151df41495ef8b2015c2",
+    "name": "Julian Cabrera Quesada",
+    "status": "active",
+    "avg": 3.63,
+    "count": 16
+  },
+  {
+    "id": "julio.berrocal",
+    "hash": "6a90eab75c6ac9d83506f8bf116ef09267baec0956c137b904ed6cf062563ea4",
+    "name": "Julio Jose Berrocal Colmenarejo",
+    "status": "active",
+    "avg": 2.63,
+    "count": 8
+  },
+  {
+    "id": "laura.delrio",
+    "hash": "92cdea3785c2eb443282f89319b62345f9305236ddc25743bb3e8f186788d7fd",
+    "name": "Laura Del Rio Carazo",
+    "status": "active",
+    "avg": 4.84,
+    "count": 19
+  },
+  {
+    "id": "l.marrodan",
+    "hash": "907d07fd6ad71877bd1028c5119093a8691e51a91311d30b39e5a033be5e1d92",
+    "name": "Lorena Marrodan Breton",
+    "status": "active",
+    "avg": 4,
+    "count": 1
+  },
+  {
+    "id": "lorenzojavier.martin",
+    "hash": "ac516d31696e2e715e466fd443cd6c95340e446965d01f2527cdabd20bc60a95",
+    "name": "Lorenzo Javier Martin Garcia",
+    "status": "active",
+    "avg": 3.12,
+    "count": 17
+  },
+  {
+    "id": "lorenzo.olivieri",
+    "hash": "295add8dfa4a07bc56b8588b52b28cac4c7014736454a74cea8cdeac0dd3dec0",
+    "name": "Lorenzo Olivieri",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "lucia.jorda",
+    "hash": "c01dec1d29b55fb3445bfc80f0702ed4f148655a05e870e6927399c9b6e7e5a9",
+    "name": "Lucia Jorda Miro",
+    "status": "active",
+    "avg": 4.8,
+    "count": 10
+  },
+  {
+    "id": "luisalfonso.hernandez",
+    "hash": "2020a59ef41118ff0aeb6a65e411a1c2d663ed09c7db74ef60d134f641705237",
+    "name": "Luis Alfonso Hernandez Gomez",
+    "status": "active",
+    "avg": 3.75,
+    "count": 4
+  },
+  {
+    "id": "l.lopezg",
+    "hash": "a98d38d36f6990f75ab05b3ca92e0dbe6658243b48ef13a8c7eedfe08288ea04",
+    "name": "Luis Antonio Lopez Gonzalez",
+    "status": "active",
+    "avg": 1.31,
+    "count": 13
+  },
+  {
+    "id": "luis.bellido",
+    "hash": "1799474f6b8fd09391d4432d401de1d69a25440969334bfaf0d60faf4ec0244b",
+    "name": "Luis Bellido Triana",
+    "status": "active",
+    "avg": 4.63,
+    "count": 8
+  },
+  {
+    "id": "luis.castejon",
+    "hash": "395bd8e4b3c45981802db7f3f8921eae1c570b99ef7ae9e81e3131c829a5531c",
+    "name": "Luis Castejon Martin",
+    "status": "active",
+    "avg": 3.1,
+    "count": 10
+  },
+  {
+    "id": "luisenrique.garciaf",
+    "hash": "fdd425f4f1db7e2156dbeb26ebc12f672789dbc0990f98fe6a3f265c2ba3dc34",
+    "name": "Luis Enrique Garcia Fernandez",
+    "status": "active",
+    "avg": 3.67,
+    "count": 3
+  },
+  {
+    "id": "luisfernando.dharo",
+    "hash": "001eca44913966db74720a528b62d5f439972b1121d7c72db6cfa1fd26257fc6",
+    "name": "Luis Fernando D'haro Enriquez",
+    "status": "active",
+    "avg": 4.14,
+    "count": 7
+  },
+  {
+    "id": "luisjavier.sanjose",
+    "hash": "3244677598728a0108e62b1d060958ae2dfda3e8992de8814dd084a34dfe48b6",
+    "name": "Luis Javier San Jose Gallego",
+    "status": "active",
+    "avg": 4,
+    "count": 2
+  },
+  {
+    "id": "luis.mendo",
+    "hash": "4d38b6b86bdbc76fe9c3164a5122d0cde0692f686ddfcd032add404850c9e7fa",
+    "name": "Luis Mendo Tomas",
+    "status": "active",
+    "avg": 4.33,
+    "count": 15
+  },
+  {
+    "id": "mar.criado",
+    "hash": "9753e39d880d30bec01b1fac67c27839c9844194d9a48451b822d36ebd013bcf",
+    "name": "M. del Mar Criado Fernandez",
+    "status": "active",
+    "avg": 3,
+    "count": 22
+  },
+  {
+    "id": "mar.sanz.lluch",
+    "hash": "f4fda30cb900cd9a76b401a0d9fb49073258092c782872ec897e2ef6827ca82c",
+    "name": "M. del Mar Sanz Lluch",
+    "status": "active",
+    "avg": 4.55,
+    "count": 20
+  },
+  {
+    "id": "m.lopez.vallejo",
+    "hash": "73f93a6b012d2f1ba6192d0473541d411f9348370567533873ae6a2049ec2940",
+    "name": "M. Luisa Lopez Vallejo",
+    "status": "active",
+    "avg": 4.14,
+    "count": 14
+  },
+  {
+    "id": "mariadelmar.duque",
+    "hash": "ec79f1ef4ffb279012bd96d3053cb504028ab0d939eb6baacb7a7f0b7273f752",
+    "name": "M.del Mar Duque Garcia",
+    "status": "active",
+    "avg": 2.38,
+    "count": 13
+  },
+  {
+    "id": "manuel.alvarez-campana",
+    "hash": "09fb741da21ab8c05df4ec6230ea7845440d793d561ad93ea17f37b35d2656bd",
+    "name": "Manuel Alvarez-Campana Fdez.-Corredor",
+    "status": "active",
+    "avg": 3.38,
+    "count": 8
+  },
+  {
+    "id": "manuel.gilmartin",
+    "hash": "5b0a8a34f6ccaf651d4db5f66b35b6ef6341329be890023247790eebfb12de41",
+    "name": "Manuel Gil Martin",
+    "status": "active",
+    "avg": 4.33,
+    "count": 3
+  },
+  {
+    "id": "manuel.lambea.olgado",
+    "hash": "49f73e6697ad51955433a064d2606780da6b7430f31260226c7dd13f7463c453",
+    "name": "Manuel Maria Lambea Olgado",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "manuel.sierra",
+    "hash": "cd607b06c36d27a368c4021d7f905304a1e92c78cff3ab45c0266f21ec17bfc0",
+    "name": "Manuel Sierra Castañer",
+    "status": "active",
+    "avg": 4.75,
+    "count": 4
+  },
+  {
+    "id": "marco.maicas",
+    "hash": "20d9a349311cf15a7fc2ed7fe46d45649cbfedfaee4332e5a96aa5a451c0b12a",
+    "name": "Marco Cesar Maicas Ramos",
+    "status": "active",
+    "avg": 4.43,
+    "count": 14
+  },
+  {
+    "id": "asun.santamaria",
+    "hash": "2721fab2e39c124efd76276a89a378c2fcc2aabe6b68b9ef92b603afd6721121",
+    "name": "Maria Asuncion Santamaria Galdon",
+    "status": "active",
+    "avg": 4.29,
+    "count": 17
+  },
+  {
+    "id": "maria.calderon",
+    "hash": "438d95d2a4bf4526c77a0766b55aa63ae9cc403f3bed335651c1b907caf13d3e",
+    "name": "Maria Carmen Calderon Pastor",
+    "status": "active",
+    "avg": 3,
+    "count": 2
+  },
+  {
+    "id": "mariadelanava.maroto",
+    "hash": "fa6dede28281fbcb07469f60513410ad493a93eecc38bce33cf96753acc1f7b9",
+    "name": "Maria de la Nava Maroto Garcia",
+    "status": "active",
+    "avg": 4.32,
+    "count": 25
+  },
+  {
+    "id": "carmen.sanchez.avila",
+    "hash": "4d7bd17eab94f745c2bacf54a209bf70302874a16c0880f3bffbdcaee14279a9",
+    "name": "Maria del Carmen Sanchez Avila",
+    "status": "active",
+    "avg": 4.08,
+    "count": 13
+  },
+  {
+    "id": "mariadelsocorro.bernardos",
+    "hash": "678048c8898aac3439a40c03e17e5b1ba72fc914dac9360f3d6145503dd486a2",
+    "name": "Maria del Socorro Bernardos Galindo",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "mariaelena.hernando",
+    "hash": "1a1f162dd94c38598ec7413fc44d91060e41562a0a8a42d5f50b53616fb974d0",
+    "name": "Maria Elena Hernando Perez",
+    "status": "active",
+    "avg": 4.25,
+    "count": 4
+  },
+  {
+    "id": "estefania.cmartin",
+    "hash": "e3451f16a09d1e09d5f853f8367e5da0e0dd70733ea9df65064a8cf91820cabb",
+    "name": "Maria Estefania Caamaño Martin",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "mf.cabrera",
+    "hash": "941d784ab2c48092a06498c05d453b32d426cd8a81b720ae875ceb089f1f402f",
+    "name": "Maria Fernanda Cabrera Umpierrez",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "mariaisabel.decorcuera",
+    "hash": "d668a6534a3e9d7ede98abb01ae006977cf6a47b3c6eb4112c804725ac8beae7",
+    "name": "Maria Isabel De Corcuera Labrado",
+    "status": "active",
+    "avg": 4,
+    "count": 11
+  },
+  {
+    "id": "mj.ledesma",
+    "hash": "d283bacf946817a07e88d80cf9eec850f4f918c005aa2d62f9cade1ab576e226",
+    "name": "Maria Jesus Ledesma Carbayo",
+    "status": "active",
+    "avg": 5,
+    "count": 1
+  },
+  {
+    "id": "mariajose.melcon",
+    "hash": "c577b3d31624b53c124748a7f1b5a838c6455f097813afb9ee4b9c22f1a9f2b7",
+    "name": "Maria Jose Melcon De Giles",
+    "status": "active",
+    "avg": 4.71,
+    "count": 17
+  },
+  {
+    "id": "mercedes.gabas",
+    "hash": "c4061f6be61bc68a3c971c7e0afbbb141818a80e3bbd138483d209a8244d988e",
+    "name": "Maria Mercedes Gabas Perez",
+    "status": "active",
+    "avg": 3.5,
+    "count": 2
+  },
+  {
+    "id": "marypaz.gonzalez.garcia",
+    "hash": "8eb87aef33338f6953a9676aa08b96327f372b71981cdb6f0ceb577cbc0780d7",
+    "name": "Maria Paz Gonzalez Garcia",
+    "status": "active",
+    "avg": 5,
+    "count": 2
+  },
+  {
+    "id": "mariana.proenca",
+    "hash": "7edcf25182c6bf1238bd46a37d3207068d1a7299ba879df72524cc40fddec4e8",
+    "name": "Mariana De Jesus Paiva Proença",
+    "status": "active",
+    "avg": 5,
+    "count": 7
+  },
+  {
+    "id": "mariano.garciao",
+    "hash": "3f4fa7df3ef2ba7a83fbab60521d8d856e97cca6543e8866136eb8f8c0eaf3b4",
+    "name": "Mariano Garcia Otero",
+    "status": "active",
+    "avg": 3.5,
+    "count": 2
+  },
+  {
+    "id": "mario.vega",
+    "hash": "c762a6f1c8e451b7955e7b7481b7c92bf021fe30e28df3a01e73d1dacb88f43c",
+    "name": "Mario Vega Barbas",
+    "status": "excluded",
+    "avg": 99,
+    "count": 0
+  },
+  {
+    "id": "marta.clement",
+    "hash": "fedcb944ed279e77d0612949b42ffea8e57cd3595911d0a08de83b16b6eb2a5d",
+    "name": "Marta Clement Lorenzo",
+    "status": "active",
+    "avg": 4.5,
+    "count": 6
+  },
+  {
+    "id": "marta.ferreras",
+    "hash": "1695f0e7527a5f91ec255a84e592f6c81730d223fe5463074274aa413f204da9",
+    "name": "Marta Ferreras Mayo",
+    "status": "active",
+    "avg": 4.75,
+    "count": 4
+  },
+  {
+    "id": "marta.peinado",
+    "hash": "5f93d8bbf9389813fbec15dbe11ad1f2c38fef0a4df0ac36f37be2bb6a50e142",
+    "name": "Marta Peinado Lopez",
+    "status": "active",
+    "avg": 2.67,
+    "count": 3
+  },
+  {
+    "id": "mateo.burgos",
+    "hash": "e8008deb685da83ed1d11ed2eb1c4f313f3c3e23fffebc076d3a4e0517f60304",
+    "name": "Mateo Burgos Garcia",
+    "status": "active",
+    "avg": 4.57,
+    "count": 14
+  },
+  {
+    "id": "mateo.camara",
+    "hash": "c698ccc112708cc17b388167e47355b17d82f09aa779050321ed20c4559d2be6",
+    "name": "Mateo Jose Camara Largo",
+    "status": "active",
+    "avg": 5,
+    "count": 6
+  },
+  {
+    "id": "miguel.salas",
+    "hash": "79c05902d8a56127d0252f5514971987c28088c5a6e6dd4e8beaa54242215d20",
+    "name": "Miguel Alejandro Salas Natera",
+    "status": "active",
+    "avg": 3.43,
+    "count": 23
+  },
+  {
+    "id": "miguel.demiguel",
+    "hash": "7db6626ec32720271876eb7fa289fef68cdedc93dbee4dfe93001fce3a5660a4",
+    "name": "Miguel Angel De Miguel Cabello",
+    "status": "excluded",
+    "avg": 99,
+    "count": 0
+  },
+  {
+    "id": "miguel.egido",
+    "hash": "f0c0e26339c035199dca1aff7d0f8ff1a88db367e769c7e484a1a8d2aa155157",
+    "name": "Miguel Angel Egido Aguilera",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "miguelangel.garcia.izquierdo",
+    "hash": "0276c113965f8cb6ffba52439ca17cd5dba4351d9978e9ee566177a10ca38b7d",
+    "name": "Miguel Angel Garcia Izquierdo",
+    "status": "active",
+    "avg": 3.24,
+    "count": 17
+  },
+  {
+    "id": "miguelangel.gonzalez",
+    "hash": "1f825209bbf96becb8ba6dca7dfb2d1752926084095d4a3b778609347d5b928b",
+    "name": "Miguel Angel Gonzalez De Aza",
+    "status": "active",
+    "avg": 1.46,
+    "count": 13
+  },
+  {
+    "id": "miguelangel.hernandez.medina",
+    "hash": "9a7a9b559532db425d00f767b7abd39efe7e804a31d975c10c3786fefe4677f6",
+    "name": "Miguel Angel Hernandez Medina",
+    "status": "active",
+    "avg": 3.29,
+    "count": 7
+  },
+  {
+    "id": "m.muriel",
+    "hash": "b23646d187387fef82e75ccf04919e6ff0294f0b50f8153fd630ef0554c9d17f",
+    "name": "Miguel Angel Muriel Fernandez",
+    "status": "active",
+    "avg": 2.33,
+    "count": 3
+  },
+  {
+    "id": "miguelangel.sanchez",
+    "hash": "5783161e3e1aa2446a61b5fd3ba1ab8c200ef90c69be3daefa04f270e96cdb7c",
+    "name": "Miguel Angel Sanchez Garcia",
+    "status": "active",
+    "avg": 5,
+    "count": 3
+  },
+  {
+    "id": "miguelangel.torres",
+    "hash": "9396f56ba5100bc0c73784b3c6b3af238574b60b3bf3d1953ff41321b8fd5346",
+    "name": "Miguel Angel Torres Lacruz",
+    "status": "active",
+    "avg": 4.22,
+    "count": 9
+  },
+  {
+    "id": "m.jimenez",
+    "hash": "0a3ecfe7f3d315ac7da0e379fb3e57eeab6792d1854ff09f2bed85f51f0e50aa",
+    "name": "Miguel Jimenez Gañan",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "miguel.montes",
+    "hash": "8de43194356bbab62e6ae11ba49b72b81599bcf751b84951b5a5bb1ba85f8d18",
+    "name": "Miguel Montes Bajo",
+    "status": "active",
+    "avg": 4.5,
+    "count": 30
+  },
+  {
+    "id": "milagros.ramos",
+    "hash": "f443f720ce4f5dd2519f6d6c34c7b530d06ab2360236b3cce9d73450483a0d8f",
+    "name": "Milagros Ramos Gomez",
+    "status": "active",
+    "avg": 3,
+    "count": 8
+  },
+  {
+    "id": "morten.geday",
+    "hash": "ac06a7029fbbada5f2aa5b9187a4ef701f007a00cbe21ff31cf8a9e569d0ce50",
+    "name": "Morten Andreas Geday",
+    "status": "active",
+    "avg": 1.5,
+    "count": 6
+  },
+  {
+    "id": "narciso.garcia",
+    "hash": "60030d088278eb16a1a77be2818e34f97cecbeeae9b06d1b0014aa9a48d632e9",
+    "name": "Narciso Garcia Santos",
+    "status": "active",
+    "avg": 4.27,
+    "count": 15
+  },
+  {
+    "id": "nuria.mari",
+    "hash": "9add0d2d47bd6a72b8e9dc9a12dba87a4210dced922601f5e102408d86de2633",
+    "name": "Nuria Mari Buye",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "octavio.nieto-taladriz",
+    "hash": "a466068dc0ccfabbb3435db88a8ca0a6e61719a68abca90ef7c70a012f088f8a",
+    "name": "Octavio Nieto-Taladriz Garcia",
+    "status": "active",
+    "avg": 4.78,
+    "count": 9
+  },
+  {
+    "id": "o.araque",
+    "hash": "4b58e633bf5dbe2b74e8d6470760ff2d2788aa57b526df0820a9890d19149d65",
+    "name": "Oscar Araque Iborra",
+    "status": "active",
+    "avg": 4.23,
+    "count": 26
+  },
+  {
+    "id": "oscar.perpinan",
+    "hash": "62c1a31ad7aef5e4c1d7614927ee1fd8aa0806788102e6f4ea81a0ea9b702c1e",
+    "name": "Oscar Perpi?an Lamigueiro",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "p.garcia-linares",
+    "hash": "1dde9ebcef60158887a6af23704c328f81ba51706b65cb72060f65f1c8b61235",
+    "name": "Pablo Garcia-Linares Fontes",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "pablo.ituero",
+    "hash": "40715b16cd2ab7f15708e800e0a2cb7f5f026484f18f1b00aa02a5fb33a0c537",
+    "name": "Pablo Ituero Herrero",
+    "status": "active",
+    "avg": 4.25,
+    "count": 20
+  },
+  {
+    "id": "pablo.palacios",
+    "hash": "90b70eaea8a82f6767d00062984faa8b6fba75cf140a5bae2f5dfce3e0ee94ae",
+    "name": "Pablo Palacios Clemente",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "pablo.sanchezo",
+    "hash": "684bc591f375045e0fb7c666dbb885c45232392dc4991774ccc1254c1dfb6980",
+    "name": "Pablo Sanchez Olivares",
+    "status": "active",
+    "avg": 4.72,
+    "count": 25
+  },
+  {
+    "id": "p.sanchez-palencia",
+    "hash": "814546f0bb16028b00f99a5c59adafef5fdc889c13819574a1bad21037332e92",
+    "name": "Pablo Sanchez-Palencia Vallejo",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "p.rhorche",
+    "hash": "c99bdd9fb60128eec086dc9be7336a69d3537e3d83488a87be66d6de575eea72",
+    "name": "Paloma Rodriguez Horche",
+    "status": "active",
+    "avg": 2.42,
+    "count": 19
+  },
+  {
+    "id": "p.arroba",
+    "hash": "622acf96ded9f994fb178d919152be886cc8ceccf847dbc1702c8fe5802c65be",
+    "name": "Patricia Arroba Garcia",
+    "status": "active",
+    "avg": 4.65,
+    "count": 17
+  },
+  {
+    "id": "p.sanchez",
+    "hash": "9417fd586490fc92efdc78e47e2f7744fab01d596703c957de17934af05b4d32",
+    "name": "Patricia Sanchez Gonzalez",
+    "status": "active",
+    "avg": 4.33,
+    "count": 3
+  },
+  {
+    "id": "x.quintana",
+    "hash": "e06f552d597d7e207443fc11b7a390e0e3d1ab2efad42b1dd2de81f412303d37",
+    "name": "Patxi Xabier Quintana Arregui",
+    "status": "active",
+    "avg": 3.14,
+    "count": 7
+  },
+  {
+    "id": "pedro.castillejo",
+    "hash": "c2a5bd817636b6609c04c41f511aa904fea8148fa86cd7972b9ac1b04bca0dce",
+    "name": "Pedro Castillejo Parrilla",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "p.salas",
+    "hash": "c5088602350c851dd8c79862c274ccef208f33756574369095458625bfae5106",
+    "name": "Pedro Jesus Salas Peralta",
+    "status": "active",
+    "avg": 4.14,
+    "count": 7
+  },
+  {
+    "id": "pedro.malagon.marzo",
+    "hash": "222694464606871bafe39f3e855f84cb6a2116d493a25b64bf032e97ed102289",
+    "name": "Pedro Jose Malagon Marzo",
+    "status": "active",
+    "avg": 5,
+    "count": 2
+  },
+  {
+    "id": "pedro.zufiria",
+    "hash": "3634308097db0f11b378fed39c0cb9297204418ccf89e5290bcbe85b7f6dfb05",
+    "name": "Pedro Jose Zufiria Zatarain",
+    "status": "active",
+    "avg": 3.18,
+    "count": 11
+  },
+  {
+    "id": "pedro.navas",
+    "hash": "72db2f53cca3cb8c53e2e1354a75e79e083a55eaee8b031bae236cafbc655ede",
+    "name": "Pedro Navas Almodovar",
+    "status": "active",
+    "avg": 3,
+    "count": 5
+  },
+  {
+    "id": "pedro.reviriego",
+    "hash": "c54e1c372bc2ff37128ace6a932d2213a6cb7de468d3b86c7dacd9a15a4359ca",
+    "name": "Pedro Reviriego Vasallo",
+    "status": "active",
+    "avg": 1.67,
+    "count": 3
+  },
+  {
+    "id": "rafael.daza",
+    "hash": "06fe0cb7f3592635ee2375057fdca19f376d8f657f71f82fa56895e72ef1b926",
+    "name": "Rafael Daza Garcia",
+    "status": "active",
+    "avg": 3,
+    "count": 2
+  },
+  {
+    "id": "ramon.martinez",
+    "hash": "e28f02f57bf3c2b2e69f916c4e6b0c67499eb18ac4d61d4100da366cf0f63db8",
+    "name": "Ramon Martinez Rodriguez-Osorio",
+    "status": "active",
+    "avg": 4.36,
+    "count": 11
+  },
+  {
+    "id": "raul.izquierdo",
+    "hash": "688c9aa0038bfddb1601aed69afc01576a90f25bfa1b201c3e43700368433b87",
+    "name": "Raul Izquierdo Lopez",
+    "status": "active",
+    "avg": 5,
+    "count": 2
+  },
+  {
+    "id": "rebeca.herrero",
+    "hash": "670204c39435dab90137f585322c81277938d510388a0d3618e8bbfe22279bfe",
+    "name": "Rebeca Herrero Martin",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "ricardo.cordoba",
+    "hash": "3af76459dd052192e7e2d66e4afaaeeadb92842d77c369059ac5df951c1aeb0a",
+    "name": "Ricardo De Cordoba Herralde",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "ricardo.riaza",
+    "hash": "688a9239e6bbcd265cb5ce2607af8f7ea1926555d25d6c0300a4ec46c633b589",
+    "name": "Ricardo Riaza Rodriguez",
+    "status": "active",
+    "avg": 4.36,
+    "count": 11
+  },
+  {
+    "id": "ricardo.rodriguez",
+    "hash": "8a7d95a99d7e6b1b360b36e840e6bbbb2dc52827426c26a540e27e7915665f2d",
+    "name": "Ricardo Rodriguez Cielos",
+    "status": "active",
+    "avg": 4.25,
+    "count": 4
+  },
+  {
+    "id": "robin.banerjee",
+    "hash": "70310b0b0a8aef0b888be68b283f0ecae97d5451d227069dd878cfc73c089353",
+    "name": "Robin Banerjee Fernandez-Bordas",
+    "status": "active",
+    "avg": 1.42,
+    "count": 38
+  },
+  {
+    "id": "r.cardenas",
+    "hash": "55ecaf6deb7514f157f697b675ea2577f6b15443e256c6157d814ae240cfc6fd",
+    "name": "Roman Cardenas Rodriguez",
+    "status": "active",
+    "avg": 4.5,
+    "count": 2
+  },
+  {
+    "id": "ruben.nunez",
+    "hash": "a62bbb950ab0ca8130a388842da0f996fd96be09e632b1e0ea7ea8b3688b4cd6",
+    "name": "Ruben Nu?ez Judez",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "ruben.sansegundo",
+    "hash": "0a0fe48d5697ed1c3cad955409c31d8fb3dd8d6d417a361329c3d8aa955dff09",
+    "name": "Ruben San Segundo Hernandez",
+    "status": "active",
+    "avg": 4.43,
+    "count": 7
+  },
+  {
+    "id": "s.jimenez",
+    "hash": "e5f0ec48a44b059f8e5dcd47a98cbc6163b0ad32bf001aa7df05d02930c43bd6",
+    "name": "Salvador Jimenez Burillo",
+    "status": "excluded",
+    "avg": 99,
+    "count": 0
+  },
+  {
+    "id": "s.iglesias",
+    "hash": "561a05fc3742245ed43c3335036b91c7fb3fc5cc8af56d75b9d04019138a70f4",
+    "name": "Santiago Iglesias Pradas",
+    "status": "active",
+    "avg": 5,
+    "count": 5
+  },
+  {
+    "id": "santiago.pavon",
+    "hash": "c9cebb4cd061b198ad6f29217ea44f68eeed4c8a6c50215ce9cc459c59e4cfd4",
+    "name": "Santiago Pavon Gomez",
+    "status": "active",
+    "avg": 3.86,
+    "count": 14
+  },
+  {
+    "id": "santiago.torres",
+    "hash": "71edc10840fe35087f35b2efe942fc844de3b94504170d53c13e509037a18052",
+    "name": "Santiago Torres Alegre",
+    "status": "active",
+    "avg": 3.67,
+    "count": 3
+  },
+  {
+    "id": "santiago.zazo",
+    "hash": "b160fc65aa817778905e1746fbb377adefe5e05a19c14be7e64260445ee37268",
+    "name": "Santiago Zazo Bello",
+    "status": "active",
+    "avg": 3.69,
+    "count": 32
+  },
+  {
+    "id": "sergio.blanco",
+    "hash": "49e42d23c5fc5674fb651739a61b142cd9872f246cc072d3718d30538c4437fd",
+    "name": "Sergio Blanco Ibañez",
+    "status": "active",
+    "avg": 4.9,
+    "count": 21
+  },
+  {
+    "id": "sergio.munoz",
+    "hash": "c8440a8db790123f8144be39b839c16fd70857a34aef3c1d76b5eac717813d71",
+    "name": "Sergio Muñoz Lopez",
+    "status": "active",
+    "avg": 4,
+    "count": 11
+  },
+  {
+    "id": "simon.svatek",
+    "hash": "a0eb9d8554143d8d1e4392fc279ba5bf095b0a0730642f87f34ca8cd629ff020",
+    "name": "Simon Aurel Svatek",
+    "status": "active",
+    "avg": 3.57,
+    "count": 7
+  },
+  {
+    "id": "teona.mirea",
+    "hash": "c581b176bbd36f4f996a4dc8e7f0599706beec8aad748c9b632c715dc6be5b46",
+    "name": "Teona Mirea",
+    "status": "active",
+    "avg": 4.88,
+    "count": 8
+  },
+  {
+    "id": "valentin.delarubia",
+    "hash": "47e89725551d6c5e462de780df3dfcf19a1bd4a0e913f57a2bd62d67d9622e63",
+    "name": "Valentin De La Rubia Hernandez",
+    "status": "active",
+    "avg": 3.5,
+    "count": 4
+  },
+  {
+    "id": "vicente.jara",
+    "hash": "238d08de89bc6916bb5ab5a00f62834ad4bcf22d533e6210672b2a1c7aac6604",
+    "name": "Vicente Jara Vera",
+    "status": "active",
+    "avg": 3,
+    "count": 2
+  },
+  {
+    "id": "victor.villagra",
+    "hash": "0ee6402a475473db6db6ddab6dea9e42cda9353dded03834c729e44cd20367a1",
+    "name": "Victor Abraham Villagra Gonzalez",
+    "status": "active",
+    "avg": 4.33,
+    "count": 24
+  },
+  {
+    "id": "victormanuel.maojo",
+    "hash": "d3335346a3879a39bd8a4b3fe4dab99d2efbc6ef8cfe6ed4054c91f4f7cf3bf4",
+    "name": "Victor Manuel Maojo Garcia",
+    "status": "active",
+    "avg": null,
+    "count": 0
+  },
+  {
+    "id": "xavier.larriva.novo",
+    "hash": "f77a798c473c420909a389bff8f1201c1d94caed49fd5771a6d6ce3316fd0d04",
+    "name": "Xavier Andres Larriva Novo",
+    "status": "active",
+    "avg": 2.71,
+    "count": 7
+  },
+  {
+    "id": "ys.martin",
+    "hash": "d9c095fbd63436146119c676e5e0190741cd73eab6d1668bc0324246a97c0611",
+    "name": "Yod Samuel Martin Garcia",
+    "status": "active",
+    "avg": 2.4,
+    "count": 5
+  },
+  {
+    "id": "zarko.gacevic",
+    "hash": "94d2a6357ae769ecf3b9f7e2e200fd1c7e1b9f8274ab9f3b5f751f829997df1a",
+    "name": "Zarko Gacevic",
+    "status": "active",
+    "avg": 3.42,
+    "count": 12
+  },
+  {
+    "id": "zoraida.frias",
+    "hash": "cffc9913bf54803d681b82f9a43766d2a3a9b9ceafd5ea2b6862d89a24843bc2",
+    "name": "Zoraida Frias Barroso",
+    "status": "active",
+    "avg": 4.86,
+    "count": 7
+  }
+]

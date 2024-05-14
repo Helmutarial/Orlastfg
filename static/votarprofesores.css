@@ -1,0 +1,71 @@
+/* Estilos para la página */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+
+
+/* Estilos para el buscador */
+#buscador {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+/* Estilo personalizado para el checkbox */
+input[type="checkbox"] {
+    display: none; /* Oculta el checkbox predeterminado */
+}
+
+.profesor-item {
+    width: 100%; /* Ocupa todo el ancho de la pantalla */
+    margin-bottom: 10px; /* Espaciado entre profesores */
+}
+
+.checkbox-profesor {
+    display: none; /* Oculta el checkbox */
+}
+
+.label-profesor {
+    display: block;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Roboto', sans-serif; /* Fuente Roboto */
+    margin: 5px auto; /* Centra el elemento horizontalmente */
+}
+input[type="checkbox"]:checked + label {
+    background-color: green; /* Cambia todo el checkbox a verde cuando está seleccionado */
+    color: white; /* Cambia el color del texto cuando está seleccionado */
+}
+
+
+/* Estilos para el botón de votar */
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para la alerta de cantidad de profesores seleccionados */
+#cantidad-seleccionados {
+    font-weight: bold;
+    color: #007bff;
+}

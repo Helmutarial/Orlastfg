@@ -1,0 +1,56 @@
+{% extends 'layout.html' %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votar Profesores</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='votarprofesores.css') }}">
+</head>
+<body>
+    <!-- Input para el buscador -->
+    <input type="text" id="buscador" onkeyup="filtrarProfesores()" placeholder="Buscar profesor...">
+    <!-- Lista de profesores filtrada -->
+    <form id="formulario" method="post">
+        <button type="submit">Votar</button>
+        <p>Selecciona un máximo de 5 profesores:</p>
+        <ul id="lista-profesores">
+            {% for profesor in profesores %}
+            <li class="profesor-item">
+                <input type="checkbox" id="profesor_checkbox_{{ loop.index }}" class="checkbox-profesor" name="profesor_nombre" value="{{ profesor }}" onclick="seleccionarProfesor(this)">
+                <label for="profesor_checkbox_{{ loop.index }}" class="label-profesor">{{ profesor }}</label>
+            </li>
+            {% endfor %}
+        </ul>
+    </form>
+    <script>
+    // Función para mantener un registro de los profesores seleccionados
+    var profesoresSeleccionados = [];
+
+    function seleccionarProfesor(checkbox) {
+        var nombreProfesor = checkbox.value.trim();
+        
+        if (checkbox.checked) {
+            if (profesoresSeleccionados.length >= 5) {
+                checkbox.checked = false; // Desmarcar el checkbox si se supera el límite
+                alert('Solo puedes seleccionar un máximo de 5 profesores.');
+                return;
+            }
+            profesoresSeleccionados.push(nombreProfesor);
+        } else {
+            var index = profesoresSeleccionados.indexOf(nombreProfesor);
+            if (index !== -1) {
+                profesoresSeleccionados.splice(index, 1);
+            }
+        }
+
+        document.getElementById('cantidad-seleccionados').innerText = profesoresSeleccionados.length;
+    }
+
+    // Resto del código JavaScript...
+    </script>
+</body>
+</html>
+
+{% endblock %}

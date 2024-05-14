@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Mi Aplicación{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='layout.css') }}">   
+</head>
+<body>
+    <header class="header">
+        <img src="{{ url_for('static', filename='logo_euri.png') }}" class="logo">
+        <input type="checkbox" id="side-menu" class="side-menu">
+        <label for="side-menu" class="hamb"><span class="hamb-line"></span></label>
+        <nav class="nav">
+            <ul class="menu">    
+                <li><a href="{{ url_for('index') }}">Inicio</a></li>
+                <li><a href="{{ url_for('reservas') }}">Reservas</a></li>
+                <li><a href="{{ url_for('tus_fotos') }}">Tus fotos</a></li>  
+                <li><a href="{{ url_for('votar_profesores') }}">Vota Profe</a></li>  
+                {% if usuario and usuario.tipo == 'admin' %}
+                <li><a href="{{ url_for('admin') }}">Admin</a></li>           
+                <li><a href="{{ url_for('subir_fotos') }}">Subir Fotos</a></li>         
+                {% endif %}
+                <li><a id="cerrarsesion" href="{{ url_for('logout') }}">Cerrar sesión</a></li>
+            </ul>
+        </nav>
+    </header>    
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('toggle-menu').addEventListener('click', function() {
+                var botones = document.getElementById('botones');
+                botones.style.display = botones.style.display === 'none' ? 'block' : 'none';
+            });
+        });
+    </script>
+</body>
+</html>
