@@ -17,9 +17,13 @@
                 <p><strong>Segundo Apellido:</strong> {{ usuario.apellido2 }}</p>
                 <p><strong>Grado:</strong> {{ usuario.grado }}</p>
                 <p><strong>Especialidad:</strong> {{ usuario.especialidad }}</p>
-                {% for reserva in usuario.reservas %}
-                <p><strong>Reserva:</strong> {{ reserva.start }}</p>
-                {% endfor %}
+                {% if usuario.reservas %}
+                    {% for reserva in usuario.reservas %}
+                    <p><strong>Reserva:</strong> {{ reserva.start }}</p>
+                    {% endfor %}
+                {% else %}
+                    <p>No hay reservas disponibles.</p>
+                {% endif %}
             </div>
             <div class="profesores-mas-votados">
                 <h2>Profesores más votados en {{ usuario.especialidad }}:</h2>

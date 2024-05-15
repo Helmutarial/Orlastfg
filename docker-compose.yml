@@ -4,13 +4,22 @@ services:
   app:
     build: .
     ports:
-      - "3000:3000"
+      - "2999:5000"
     environment:
       - FLASK_ENV=development
     volumes:
       - .:/app  # Monta el directorio actual en el contenedor para facilitar el desarrollo
     depends_on:
       - db  # Dependencia del servicio de la base de datos
+    container_name: orlas
+    networks:
+      - traefik
+    labels:  # Labels for traefik reverse-proxy
+      - traefik.enable=true  # Enables traefik for the service
+      - traefik.http.routers.orlas.entrypoints=websecure  # Redirect http to https always
+      - traefik.http.routers.orlas.rule=Host(`orlas.eurielec.etsit.upm.es`)  # Domain where the service is served
+      - traefik.http.routers.orlas.tls=true  # Enable ssl for https
+      - traefik.http.routers.orlas.tls.certresolver=le  # Use letsencrypt for obtaining ssl certificates
 
   db:
     image: postgres:latest
@@ -24,4 +33,7 @@ services:
 volumes:
   postgres-data:  # Define un volumen para persistir los datos de PostgreSQL
 
-
+networks:
+  traefik:
+    name: traefik
+    external: true
