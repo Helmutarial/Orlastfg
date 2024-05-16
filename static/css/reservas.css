@@ -1,4 +1,6 @@
 .calendar-container {
   max-height: 80vh; /* Establecer la altura máxima del calendario */
   overflow-y: auto; /* Permitir el desplazamiento vertical si el contenido excede la altura máxima */
+  z-index: 1; /* Ajusta este valor según sea necesario */
 }
+
