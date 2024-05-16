@@ -12,7 +12,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('inisesion.png');
     background-size: cover;
     /* Si quieres centrar la imagen de fondo verticalmente, puedes usar la propiedad background-position */
     /* background-position: center center; */

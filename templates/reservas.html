@@ -1,122 +1,137 @@
 {% extends 'layout.html' %}
 {% block content %}
+
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calendario de Reservas</title>
-    <link href='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.css' rel='stylesheet' />
-    <link rel="stylesheet" href="{{ url_for('static', filename='reservas.css') }}">
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.9/index.global.min.js'></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/reservas.css') }}">  
 </head>
 <body>
+    
+    <div class="calendar-container" id='calendar'></div>
+    <script>
 
-<div id="calendario"></div>
+    document.addEventListener('DOMContentLoaded', function() {
 
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/locale/es.js'></script>
-<script>
-    var reservas_existente = {{ reservas | safe }};
+      let request_calendar = "{{ url_for('static', filename='data/events.json') }}";
+  
+      var calendarEl = document.getElementById('calendar');
+      var calendar = new FullCalendar.Calendar(calendarEl, {
+          initialView: 'timeGridWeek',
+          contentHeight: 'auto',
+          slotDuration: '00:10:00',
 
-    $(document).ready(function() {
-        var calendar = $('#calendario');
+          allDaySlot: false,
+          editable: false,
+          locale: 'es',
+          selectable: true,
+          select: function(info) {
+              // Obtener la fecha de inicio y finalización seleccionadas
+              var start = info.startStr; // Fecha de inicio en formato ISO8601
+              var end = info.endStr; // Fecha de finalización en formato ISO8601
 
-        function actualizarVista() {
-            if ($(window).width() < 768) {
-                calendar.fullCalendar('changeView', 'agendaDay');
-            } else {
-                calendar.fullCalendar('changeView', 'agendaWeek');
-            }
-        }
-
-        $(window).resize(actualizarVista);
-
-        calendar.fullCalendar({
-            header: {
-                left:   'prev,next',
-                center: 'title',
-                right:  ''
-            },
-            height: 500,
-            defaultView: 'agendaWeek',
-            selectable: true,
-            selectHelper: true,
-            slotDuration: '00:10:00',
-            editable: false,
-            minTime: '09:00:00',
-            maxTime: '17:00:00',
-            scrollTimeReset : false,
-            slotLabelInterval : '00:10:00',
-            titleFormat: 'MMMM YYYY',
-            columnFormat: 'ddd\nD',
-            dayNamesShort: ['DOM', 'LUN', 'MAR', 'MIÉ', 'JUE', 'VIE', 'SÁB'],
-            monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
-            allDaySlot: false,
-            locale: 'es',
-            selectOverlap: false,
-            today: false,
-            selectConstraint: {
-                duration: { minutes: 10 },
-                message: 'Solo se pueden seleccionar franjas de 10 minutos'
-            },
-            events: reservas_existente,
-            eventRender: function(event, element) {
-                if (event.title === "Reservado") {
-                    element.find('.fc-time').remove();
-                    element.css('background-color', 'red');
-                    element.find('.fc-title').text('Reservado');
-                    element.addClass('fc-reserved');
-                }
-            },
-
-            select: function(start, end) {
-                var durationInMinutes = moment.duration(end.diff(start)).asMinutes();
-                var startDateTime = start.format();
-                var endDateTime = end.format();
-
-                if (durationInMinutes === 10) {
-                    if (confirm('¿Deseas guardar esta reserva?')) {
-                        $.ajax({
-                            type: 'POST',
-                            url: '/guardar_reserva',
-                            data: {
-                                start: startDateTime,
-                                end: endDateTime
-                            },
-                            success: function(response) {
-                                console.log('Reserva guardada con éxito:', response);
-                            },
-                            error: function(error) {
-                                console.error('Error al guardar la reserva:', error);
-                            }
-                        });
-                    }
-                } else {
-                    alert('Por favor, seleccione un intervalo de 10 minutos para la reserva.');
-                    $('#calendario').fullCalendar('unselect');
-                }
-            },
-            customButtons: {
-                myCustomButton: {
-                    text: function() {
-                        return moment().format('MMMM YYYY');
-                    },
-                    click: function() {}
-                }
-            },
-            viewRender: function(view, element) {
-                $('.fc-myCustomButton-button').text(moment(view.start).format('MMMM YYYY'));
-            },
-        });
-
-        actualizarVista(); // Llamar a la función para establecer la vista inicial
-    });
-</script>
-
+              if (confirm('¿Deseas guardar esta reserva?')) {
+                  // Enviar los datos al backend utilizando fetch API
+                  fetch('/guardar_reserva', {
+                      method: 'POST',
+                      headers: {
+                          'Content-Type': 'application/json'
+                      },
+                      body: JSON.stringify({
+                          start: start,
+                          end: end
+                      })
+                  })
+                  .then(response => {
+                      if (response.ok) {
+                          console.log('Reserva guardada con éxito');
+                      } else {
+                          console.error('Error al guardar la reserva:', response.statusText);
+                      }
+                  })
+                  .catch(error => {
+                      console.error('Error al guardar la reserva:', error);
+                  });
+              }
+          },
+  
+          events:function(info, successCallback, failureCallback){
+              fetch(request_calendar)
+                  .then(function(response){
+                      return response.json()
+                  })
+                  .then(function(data){
+                      let events = data.events.map(function(event){
+                          return {
+                              title: event.eventTitle,
+                              start: new Date(event.eventStartDate),
+                              end: new Date(event.eventEndDate),
+                              url: event.eventUrl,
+                              location: event.eventLocation,
+                              timeStart: event.eventStartTime,
+                              timeEnd: event.eventEndTime,
+                          }
+                      })
+                      successCallback(events)
+                  })
+                  .catch(function(error){
+                      failureCallback(error)
+                  })
+          },
+  
+          eventContent: function(info){
+              console.log("Hola Mundo!")
+              return {
+                  html: `
+                  <div style="overflow: hidden; font-size: 12px; positon: relative;  cursor: pointer; font-family: 'Inter', sans-serif;">
+                      <div><strong>${info.event.title}</strong></div>
+                      <div>Location: ${info.event.extendedProps.location}</div>
+                      <div>Date: ${info.event.start.toLocaleDateString(
+                          "es-US",
+                          {
+                              month: "long",
+                              day: "numeric",
+                              year: "numeric",
+                          }
+                      )}</div>
+                      <div>Time: ${info.event.extendedProps.timeStart} - ${info.event.extendedProps.timeEnd}</div>
+                  </div>
+                  `
+              }
+          },
+  
+          eventMouseEnter: function(mouseEnterInfo){
+              console.log(mouseEnterInfo)
+              let el = mouseEnterInfo.el
+              el.classList.add("relative")
+  
+              let newEl = document.createElement("div")
+              let newElTitle = mouseEnterInfo.event.title
+              let newElLocation = mouseEnterInfo.event.extendedProps.location
+              newEl.innerHTML = `
+                  <div
+                      class="fc-hoverable-event"
+                      style="position: absolute; bottom: 100%; left: 0; width: 300px; height: auto; background-color: white; z-index: 50; border: 1px solid #e2e8f0; border-radius: 0.375rem; padding: 0.75rem; font-size: 14px; font-family: 'Inter', sans-serif; cursor: pointer;"
+                  >
+                      <strong>${newElTitle}</strong>
+                      <div>Location: ${newElLocation}</div>
+  
+                  </div>
+              `
+              el.after(newEl)
+          },
+  
+          eventMouseLeave: function(){
+              document.querySelector(".fc-hoverable-event").remove()
+          }
+      });
+      calendar.render();
+  });
+  </script>
 </body>
 </html>
-
 {% endblock %}
 

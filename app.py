@@ -22,7 +22,7 @@ app.config.update({
     'SECRET_KEY': 'SomethingNotEntirelySecret',
     'TESTING': True,
     'DEBUG': True,
-    'OIDC_CLIENT_SECRETS': 'client_secrets.json',
+    'OIDC_CLIENT_SECRETS': os.path.join(os.path.dirname(__file__), 'static', 'data', 'client_secrets.json'),
     'OIDC_ID_TOKEN_COOKIE_SECURE': False,
     #'OIDC_REQUIRE_VERIFIED_EMAIL': False,
     'OIDC_USER_INFO_ENABLED': True,
@@ -413,9 +413,11 @@ def votar_profesores():
     user = Estudiante.query.filter_by(username=oidc.user_getfield('preferred_username')).first()
     estudiante = Estudiante.query.filter_by(username=username).first()
     
-    with open('profes.json', 'r', encoding='utf-8') as f:
-        data = json.load(f)
 
+
+    ruta_json = os.path.join("static", "data", "profes.json")
+    with open(ruta_json, 'r', encoding='utf-8') as f:
+        data = json.load(f)
     # Extraer los nombres de los profesores y decodificar caracteres especiales
     nombres_profesores = [html.unescape(nombre) for nombre in data]
 
