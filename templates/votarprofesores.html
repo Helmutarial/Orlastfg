@@ -48,6 +48,23 @@
         document.getElementById('cantidad-seleccionados').innerText = profesoresSeleccionados.length;
     }
 
+    function filtrarProfesores() {
+    var input = document.getElementById('buscador');
+    var filter = input.value.toUpperCase();
+    var ul = document.getElementById('lista-profesores');
+    var li = ul.getElementsByTagName('li');
+
+    for (var i = 0; i < li.length; i++) {
+        var label = li[i].getElementsByTagName('label')[0];
+        var textoProfesor = label.textContent || label.innerText;
+        if (textoProfesor.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = '';
+        } else {
+            li[i].style.display = 'none';
+        }
+    }
+}
+
     // Resto del código JavaScript...
     </script>
 </body>
