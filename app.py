@@ -112,7 +112,7 @@ def index():
 def logout():
     id_token = session.get('oidc_auth_token').get('id_token')
     session.clear()
-    return redirect("https://sso.dat.etsit.upm.es/realms/tfg-orlas/protocol/openid-connect/logout?id_token_hint=%s&post_logout_redirect_uri=%s" % (id_token, urllib.parse.quote("http://127.0.0.1:5000/inicio", safe='')))
+    return redirect('inicio')
 
 @app.route('/private') #la ruta se tiene que llamar asi, si no no funciona
 @oidc.require_login
