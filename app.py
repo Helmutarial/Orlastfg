@@ -236,32 +236,6 @@ def reservas():
 
 
 
-@app.route('/actualizar_pagado/<int:id>', methods=['POST'])
-def actualizar_pagado(id):
-    estudiante = Estudiante.query.get_or_404(id)
-    if request.method == 'POST':
-        pagado = request.form['pagado']
-        estudiante.pagado = pagado
-        db.session.commit()
-        return 'Campo pagado actualizado correctamente', 200
-
-
-@app.route('/actualizar_pack/<int:id>', methods=['POST'])
-def actualizar_pack(id):
-    # Obtener el estudiante por su ID
-    estudiante = Estudiante.query.get_or_404(id)
-    
-    # Obtener el nuevo valor de pack enviado desde el cliente
-    nuevo_valor = request.form['pack']
-    
-    # Actualizar el valor de pack en el objeto del estudiante
-    estudiante.pack = nuevo_valor
-    
-    # Guardar los cambios en la base de datos
-    db.session.commit()
-    
-    return 'Pack actualizado correctamente', 200
-
 @app.route('/actualizar_dato/<int:id>', methods=['POST'])
 def actualizar_dato(id):
     estudiante = Estudiante.query.get_or_404(id)
@@ -367,6 +341,33 @@ def subir_fotos():
         # Si no es administrador, puedes redirigirlo a otra página o mostrar un mensaje de error
         return render_template('error.html', message='No tienes permisos para acceder a esta página')
 
+@app.route('/borrarfotos', methods=['POST'])
+def borrar_fotos():
+    # Obtener el ID del estudiante y la especialidad del cuerpo de la solicitud
+    estudiante_id = request.form.get('estudiante_id')
+    especialidad = request.form.get('especialidad')
+
+    # Borrar las fotos asociadas al estudiante y/o especialidad
+    if estudiante_id:
+        fotos_a_borrar = Foto.query.filter_by(estudiante_id=estudiante_id).all()
+        for foto in fotos_a_borrar:
+            # Borrar el archivo de la carpeta de almacenamiento
+            os.remove(os.path.join(app.config['UPLOAD_FOLDER'], foto.filename))
+        Foto.query.filter_by(estudiante_id=estudiante_id).delete()
+    
+    if especialidad:
+        fotos_a_borrar = Foto.query.filter_by(especialidad=especialidad).all()
+        for foto in fotos_a_borrar:
+            # Borrar el archivo de la carpeta de almacenamiento
+            os.remove(os.path.join(app.config['UPLOAD_FOLDER'], foto.filename))
+        Foto.query.filter_by(especialidad=especialidad).delete()
+
+    # Confirmar los cambios en la base de datos
+    db.session.commit()
+
+    return 'Fotos borradas correctamente', 200
+
+
 @app.route('/tusfotos')
 @datos_completos_required 
 @oidc.require_login
@@ -388,8 +389,8 @@ def tus_fotos():
         flash('Usuario no encontrado', 'error')
         return redirect(url_for('index'))
 
-@app.route('/download_all_photos', methods=['GET'])
-def download_all_photos():
+@app.route('/downloadphotos', methods=['GET'])
+def downloadphotos():
     # Obtener la lista de todas las fotos
     fotos = Foto.query.all()
     

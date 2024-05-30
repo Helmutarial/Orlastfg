@@ -33,6 +33,8 @@
                     <input type="hidden" id="especialidad" name="especialidad">
                     <!-- Agrega un botón de "Subir Fotos" -->
                     <button type="button" id="submit-all" class="btn btn-primary btn-block mt-3">Subir Fotos</button>
+                    <!-- Agrega un botón de "Borrar Fotos" -->
+                    <button type="button" id="delete-photos" class="btn btn-danger btn-block mt-3">Borrar Fotos</button>
                 </form>
             </div>
         </div>
@@ -100,7 +102,36 @@
             });
         });
     </script>
-
+    <script>
+        $(document).ready(function() {
+            $('#delete-photos').on('click', function() {
+                // Obtener el ID del estudiante seleccionado del campo oculto
+                var estudianteId = $('#estudiante_id').val();
+                // Obtener la especialidad seleccionada del campo oculto
+                var especialidad = $('#especialidad').val();
+                
+                // Realizar una solicitud AJAX para borrar las fotos asociadas al estudiante y/o especialidad
+                $.ajax({
+                    url: '/borrarfotos',
+                    type: 'POST',
+                    data: {
+                        estudiante_id: estudianteId,
+                        especialidad: especialidad
+                    },
+                    success: function(response) {
+                        // Mostrar un mensaje de éxito o realizar cualquier otra acción necesaria
+                        alert('Fotos borradas correctamente');
+                    },
+                    error: function(xhr, status, error) {
+                        // Manejar errores si los hay
+                        console.error(error);
+                        alert('Ocurrió un error al borrar las fotos');
+                    }
+                });
+            });
+        });
+    </script>
+    
     
 </body>
 </html>

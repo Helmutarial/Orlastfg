@@ -11,19 +11,42 @@
 <body>
     
     <div class="container">
-        {% if fotos %}
-            {% for foto in fotos %}
-                <div class="foto">
-                    <img src="{{ url_for('static', filename='fotos/' + foto.filename) }}" alt="{{ foto.filename }}">
-                </div>
-            {% endfor %}
-        {% else %}
-            <p>No hay fotos disponibles.</p>
-        {% endif %}
+        <div class="foto-container">
+            {% if fotos %}
+            <div class="navigation-buttons">
+                <button id="prev-btn" onclick="showPrev()">Anterior</button>
+                <button id="next-btn" onclick="showNext()">Siguiente</button>
+            </div>
+            <div class="foto">
+                <img id="current-photo" src="{{ url_for('static', filename='fotos/' + fotos[0].filename) }}" alt="{{ fotos[0].filename }}">
+            </div>
+
+            {% else %}
+                <p>No hay fotos disponibles.</p>
+            {% endif %}
+        </div>
     </div>
 
-    <a href="{{ url_for('download_all_photos') }}" download class="boton-descargar">Descargar todas</a>
+    <a href="{{ url_for('downloadphotos') }}" download class="boton-descargar">Descargar todas</a>
     
+    <script>
+        var currentPhotoIndex = 0;
+        var photos = [
+            {% for foto in fotos %}
+                "{{ url_for('static', filename='fotos/' + foto.filename) }}",
+            {% endfor %}
+        ];
+
+        function showNext() {
+            currentPhotoIndex = (currentPhotoIndex + 1) % photos.length;
+            document.getElementById('current-photo').src = photos[currentPhotoIndex];
+        }
+
+        function showPrev() {
+            currentPhotoIndex = (currentPhotoIndex - 1 + photos.length) % photos.length;
+            document.getElementById('current-photo').src = photos[currentPhotoIndex];
+        }
+    </script>
 </body>
 </html>
 

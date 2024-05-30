@@ -1,17 +1,19 @@
 /* Estilos CSS para el contenedor de las fotos y el botón de descarga */
 .container {
     display: flex;
-    flex-wrap: nowrap; /* Evita que las fotos se envuelvan en varias líneas */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
     overflow-x: auto; /* Agrega una barra de desplazamiento horizontal si las fotos no caben en la pantalla */
     max-width: 100%; /* Asegura que el contenedor no sea más ancho que la pantalla */
 }
 
 .foto {
-    margin-right: 10px; /* Espacio entre las fotos */
+    text-align: center; /* Centra la foto dentro de su contenedor */
 }
 
 .foto img {
-    width: 150px; /* Ancho deseado para las fotos */
+    width: 80%; /* Ancho del 80% del contenedor padre */
+    max-width: 500px; /* Ancho máximo para la imagen */
     height: auto; /* Altura automática para mantener la proporción */
 }
 
@@ -32,4 +34,21 @@
     text-decoration: none;
     font-size: 16px;
     cursor: pointer;
+}
+
+.navigation-buttons {
+    margin-top: 20px; /* Espacio entre las fotos y los botones de navegación */
+    text-align: center; /* Centra los botones */
+}
+
+.navigation-buttons button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 10px; /* Espacio entre los botones */
 }
