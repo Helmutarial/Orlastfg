@@ -43,13 +43,16 @@ def datos_completos_required(f):
     @wraps(f)
     def decorated_function(*args, **kwargs):
         profile = session.get('oidc_auth_profile')
-        if oidc.user_loggedin:
+        username = profile.get('preferred_username')
+        # Buscar el usuario en la base de datos por su nombre de usuario preferido
+        usuario = Estudiante.query.filter_by(username=username).first()
+        if usuario.nombre:
             # Si el usuario está autenticado y tiene los datos completos, continúa con la función
             g.user = Estudiante.query.filter_by(username=profile.get('preferred_username')).first()
             return f(*args, **kwargs)
         else:
-            # Si el usuario no está autenticado, redirígelo a la pasarela de autenticación (/private)
-            return redirect(url_for('private', next=request.endpoint))
+            # Si el usuario no ha rellenado sus datos, le redirije a la página de perfil
+            return redirect(url_for('perfil', next=request.endpoint))
     return decorated_function
 
 def perfil_completado_required(f):
@@ -76,6 +79,7 @@ def inicio():
 
 @app.route('/') 
 @oidc.require_login
+@datos_completos_required
 def index():
     profile = session.get('oidc_auth_profile')
     # Obtener el usuario de la base de datos
