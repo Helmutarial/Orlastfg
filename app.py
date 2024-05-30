@@ -188,6 +188,19 @@ def perfil():
     return render_template('perfil.html', form=form, username=oidc.user_getfield('preferred_username'), usuario= g.user)
 
 
+@app.route('/cancelar_reserva', methods=['POST'])
+@oidc.require_login
+@datos_completos_required
+def cancelar_reserva():
+    usuario = Estudiante.query.filter_by(username=oidc.user_getfield('preferred_username')).first()
+    reserva = Reserva.query.filter_by(estudiante_id=usuario.id).first()
+    
+    if reserva:
+        db.session.delete(reserva)
+        db.session.commit()
+        return jsonify({'message': 'Reserva cancelada exitosamente'})
+    else:
+        return jsonify({'message': 'No hay reservas para cancelar'}), 404
 
 
 @app.route('/guardar_reserva', methods=['POST'])
@@ -220,23 +233,19 @@ def guardar_reserva():
 @oidc.require_login
 def reservas():
     g.user = Estudiante.query.filter_by(username=oidc.user_getfield('preferred_username')).first()
-    # Obtener las reservas existentes desde la base de datos
     reservas_db = Reserva.query.all()
 
-    # Convertir las reservas existentes a un formato compatible con JSON
     reservas_existente = []
     for reserva in reservas_db:
         reserva_dict = {
-            "title": "Reservado" if reserva.estudiante_id != g.user.id else "Tu reserva",  # Título personalizado
+            "title": "Reservado",
             "start": reserva.start.strftime('%Y-%m-%dT%H:%M:%S'),
             "end": reserva.end.strftime('%Y-%m-%dT%H:%M:%S'),
-            "estudiante_id": reserva.estudiante_id  # Identificador del estudiante
+            "estudiante_id": reserva.estudiante_id
         }
         reservas_existente.append(reserva_dict)
 
-    # Renderizar el template y pasar las reservas al template
     return render_template('reservas.html', reservas=json.dumps(reservas_existente), usuario=g.user)
-
 
 
 
