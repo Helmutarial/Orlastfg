@@ -216,8 +216,7 @@ def guardar_reserva():
     return jsonify({'message': 'Reserva guardada exitosamente'})
 
 @app.route('/reservas', methods=['GET', 'POST'])
-
-@datos_completos_required   
+@datos_completos_required
 @oidc.require_login
 def reservas():
     g.user = Estudiante.query.filter_by(username=oidc.user_getfield('preferred_username')).first()
@@ -228,14 +227,15 @@ def reservas():
     reservas_existente = []
     for reserva in reservas_db:
         reserva_dict = {
-            "title": "Reservado",  # Puedes personalizar esto si tienes un título específico para cada reserva
+            "title": "Reservado" if reserva.estudiante_id != g.user.id else "Tu reserva",  # Título personalizado
             "start": reserva.start.strftime('%Y-%m-%dT%H:%M:%S'),
-            "end": reserva.end.strftime('%Y-%m-%dT%H:%M:%S')
+            "end": reserva.end.strftime('%Y-%m-%dT%H:%M:%S'),
+            "estudiante_id": reserva.estudiante_id  # Identificador del estudiante
         }
         reservas_existente.append(reserva_dict)
 
     # Renderizar el template y pasar las reservas al template
-    return render_template('reservas.html', reservas=json.dumps(reservas_existente),usuario=g.user)
+    return render_template('reservas.html', reservas=json.dumps(reservas_existente), usuario=g.user)
 
 
 

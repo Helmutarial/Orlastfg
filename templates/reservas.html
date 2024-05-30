@@ -19,6 +19,7 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/locale/es.js'></script>
 <script>
     var reservas_existente = {{ reservas | safe }};
+    var usuario_id = {{ usuario.id }};
 
     $(document).ready(function() {
         var calendar = $('#calendario');
@@ -64,11 +65,12 @@
             },
             events: reservas_existente,
             eventRender: function(event, element) {
-                if (event.title === "Reservado") {
-                    element.find('.fc-time').remove();
-                    element.css('background-color', 'red');
-                    element.find('.fc-title').text('Reservado');
+                if (event.estudiante_id === usuario_id) {
+                    element.addClass('fc-user-reserva');
+                    element.find('.fc-title').text('Tu reserva');
+                } else if (event.title === "Reservado") {
                     element.addClass('fc-reserved');
+                    element.find('.fc-title').text('Reservado');
                 }
             },
 
@@ -88,6 +90,7 @@
                             },
                             success: function(response) {
                                 console.log('Reserva guardada con éxito:', response);
+                                location.reload();  // Recargar la página para reflejar los cambios
                             },
                             error: function(error) {
                                 console.error('Error al guardar la reserva:', error);
@@ -115,6 +118,7 @@
         actualizarVista(); // Llamar a la función para establecer la vista inicial
     });
 </script>
+
 
 </body>
 </html>
